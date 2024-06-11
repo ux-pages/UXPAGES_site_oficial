@@ -1,0 +1,80 @@
+.negocio-desktop{
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.negocio-desktop .card{
+    width: 22%;
+}
+
+.card{
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body a{
+    background-color: transparent;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: transparent;
+}
+
+.card-body button{
+    background-color: #e85303;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 200%;
+    margin-left: -10%;
+    font-size: 16px;
+    text-align: center;
+    /* padding-left: 25px; */
+    height: 60px;
+}
+
+.card-body button:hover{
+    background-color: white;
+    color: rgb(232, 83, 3);
+    border: 1px solid rgb(232, 83, 3);
+}
+
+.carousel{
+    display: none;
+}
+
+.card-color-diferent{
+    background-color: rgb(246, 244, 244);
+}
+
+@media only screen and (max-width:1000px){
+    .carousel{
+        display: block;
+        background-color: transparent;
+        margin-bottom: 30px;
+    }
+
+    .negocio-desktop{
+        display: none;
+    }
+
+    .card{
+        width: 80%;
+        margin-left: 10%;
+        box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(../pictures/icons/next\ \(1\).png);
+        margin-left: 20px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url(../pictures/icons/back.png);
+        margin-right: 20px;
+    }
+}

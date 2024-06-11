@@ -1,0 +1,159 @@
+.domains{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: rgb(232, 83, 3);
+    font-size: 40px;
+}
+
+.domain-api{
+    margin-top: 30px;
+}
+
+#check-domain-button{
+    background-color: rgb(232, 83, 3);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-left: -210px;
+}
+
+#check-domain-button:hover{
+    background-color: white;
+    color: rgb(232, 83, 3);
+    border: 1px solid rgb(232, 83, 3);
+}
+
+#domain-name{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(3, 104, 141);
+    padding-left: 15px;
+}
+
+#availability-negative{
+    color: red;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.domain-result{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid rgb(3, 104, 141);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 70px;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.result img{
+    margin-top: 2px;
+}
+
+#availability-result{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 50px;
+    height: 120px;
+}
+
+.area-three button{
+    background-color: rgb(232, 83, 3);
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.area-three button:hover{
+    background-color: rgba(232, 83, 3, 0.858);
+}
+
+.area-two{
+    background-color:rgba(3, 104, 141, 0.701) ;
+    color: white;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+
+.hiden{
+    display: none;
+}
+
+
+@media only screen and (max-width:500px){
+    #check-domain-button{
+        background-color: rgb(232, 83, 3);
+        width: 70%;
+        height: 40px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #domain-name{
+        width: 90%;
+        height: 50px;
+        border-radius: 30px;
+        border: 1px solid rgb(3, 104, 141);
+        padding-left: 15px;
+    }
+
+    h2{
+        width: 90%;
+        margin-left: 5%;
+        color: rgb(232, 83, 3);
+        font-size:35px;
+    }
+
+    .domain-result{
+        display: grid;
+        background-color: white;
+        width: 100%;
+        justify-content: space-around;
+        border: 1px solid rgb(3, 104, 141);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 200px;
+        padding-top: 20px;
+    }
+
+    #availability-result{
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-top: 50px;
+        height: 120px;
+        margin-bottom: 200px;
+    }
+
+    .area-two{
+        margin-left: 10px;
+    }
+}

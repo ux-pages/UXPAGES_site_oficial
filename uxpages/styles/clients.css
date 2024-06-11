@@ -1,0 +1,132 @@
+
+.card-top-image {
+    display: flex;
+}
+
+.card-clients{
+    width: 100%;
+    padding: 10px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.flex-text-image{
+    display: flex;
+    width:100%;
+    margin-top: 5px;
+}
+
+.flex-text-image h3{
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+img.flex-text-image-bottom{
+    width: 20px!important;
+    height: 20px!important;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.clients img{
+    width: 50px;
+}
+
+.clients{
+    width:27%;
+    /* background-color: #03688d; */
+    padding: 20px;
+}
+
+.geral-clients{
+    width: 100%;
+    background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
+    display: flex;
+    justify-content: space-around;
+}
+
+img.image-client{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+img.stars{
+    width: 60px;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+p.card-texts{
+    margin-top: -10px;
+    margin-left: -10px;
+    color: black;
+    margin-bottom: -1px;
+}
+
+button.like-btn{
+    width: 25%;
+    margin-left: -20px;
+    background-color: transparent;
+    margin-top: -40px;
+}
+
+button.like-btn:hover{
+    border: none;
+    background-color: transparent;
+}
+
+img.likes{
+    width: 20px;
+    margin-top: -5px;
+}
+
+span.like-count{
+    color: black;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.card-p{
+    margin-top: -17px;
+}
+
+.card-clients {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  /* Fade-in class to apply when element is in view */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .clients-speak p{
+    color: white;
+  }
+
+
+  .images-logo img{
+    width: 150px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+
+  .images-logo-image img{
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .clients-speak{
+    margin-top: 140px;
+  }
+
+  .clients-speak p{
+    margin-top: -80px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+  }

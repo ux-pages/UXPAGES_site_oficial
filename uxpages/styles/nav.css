@@ -1,0 +1,188 @@
+
+.desktop-header{
+    display: block;
+}
+
+
+.navbar{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.navs{
+    margin-top: -20px;
+    background-color: white;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.nav-item{
+    color:  rgb(0, 97, 133);
+    font: bold;
+}
+
+header{
+    height: 650px;
+    background-color: rgb(3, 104, 141);
+    background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55))
+}
+
+.icon-nav img{
+    margin-right: 10px;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#availability-result{
+    color: black;
+}
+
+.head-header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.text-header{
+    width: 40%;
+    margin-top: 30px;
+    color: white;
+}
+
+.text-header p{
+    margin-top: 30px;
+}
+
+.text-header button{
+    background-color: rgb(232, 83, 3);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.text-header button:hover{
+    background-color: white;
+    color: rgb(232, 83, 3);
+}
+
+.itens-header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.banner-header img{
+    border-radius: 1000px;
+}
+
+.image-banner-header{
+    margin-top: -180px;
+    margin-left: 150px;
+}
+
+
+
+.mobile-header{
+    display: none;
+}
+
+@media only screen and (max-width:500px){
+    .itens-header{
+        display: grid;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+
+    .text-header{
+        width: 80%;
+        margin-top: 30px;
+        color: white;
+    }
+
+    .text-header h1{
+        font-size: 40px;
+    }
+
+    header{
+        height: 900px;
+        background-color: #03688d;        ;
+        background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55))
+    }
+
+    .banner-header{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .image-banner-header{
+        margin-left: 30%;
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+        padding-top: 10px;
+    }
+
+    a.nav-link{
+        color: black!important;
+        display: flex!important;
+    }
+
+    .navbar{
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: transparent;
+    }
+
+    .navs{
+        margin-top: 0px;
+        background-color: transparent;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-nav{
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .nav-link-one{
+        display: flex;
+    }
+
+    .nav-link-one p{
+       margin-top: 7px;
+       margin-left: 5px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../pictures/icons/menu.png);
+        border: none;
+    }
+
+}
