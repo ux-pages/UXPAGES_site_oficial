@@ -106,6 +106,7 @@ h4{
 h6{
     color: white;
     font-size: 30px;
+    margin-top: 30px;
 }
 
 p.description{
@@ -128,32 +129,32 @@ p.description{
 }
 
 
-.elemento-com-scroll {
+/* .elemento-com-scroll {
     overflow: hidden;
     width: 300px; /* Ajuste conforme necessário */
-    height: 200px; /* Ajuste conforme necessário */
-}
-
+    /* height: 200px; Ajuste conforme necessário
+} */
+/* 
 .elemento-com-scroll img {
     width: 100%;
     height: auto;
-    transition: transform 4s ease; /* Adiciona transição suave */
+    transition: transform 4s ease; 
 }
 
 .elemento-com-scroll:hover img {
-    transform: translateY(-50px); /* Ajuste a quantidade de deslocamento vertical conforme necessário */
+    transform: translateY(-50px); 
 }
 
 .elemento-com-scroll2 img {
     width: 100%;
     height: auto;
-    transition: transform 4s ease; /* Adiciona transição suave */
+    transition: transform 4s ease; 
 }
 
 .elemento-com-scroll2:hover img {
-    transform: translateY(-50px); /* Ajuste a quantidade de deslocamento vertical conforme necessário */
+    transform: translateY(-50px); 
 }
 
 .pop-text{
     margin-left: 20px;
-}
+}  */

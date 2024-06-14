@@ -6,8 +6,8 @@
 .card-clients{
     width: 100%;
     padding: 10px;
-    height: 170px;
-    margin-top: 20px;
+    height: 160px;
+    margin-top: 40px;
 }
 
 .flex-text-image{
@@ -36,6 +36,7 @@ img.flex-text-image-bottom{
     width:27%;
     /* background-color: #03688d; */
     padding: 20px;
+    height: 700px;
 }
 
 .geral-clients{
@@ -43,6 +44,7 @@ img.flex-text-image-bottom{
     background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
     display: flex;
     justify-content: space-around;
+    height: 700px;
 }
 
 img.image-client{
@@ -65,7 +67,7 @@ p.card-texts{
 }
 
 button.like-btn{
-    width: 25%;
+    width: 30%;
     margin-left: -20px;
     background-color: transparent;
     margin-top: -40px;
@@ -116,8 +118,9 @@ span.like-count{
 
   .images-logo-image img{
     width: 150px;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-bottom: 50px;
+    display: block;
   }
 
   .clients-speak{
@@ -129,4 +132,49 @@ span.like-count{
     margin-bottom: 70px;
     text-align: center;
     font-size: 40px;
+  }
+
+
+  @media only screen and (max-width:1300px) and (min-width:1000px){
+    .card-clients{
+        width: 100%;
+        padding: 10px;
+        height: 190px;
+        margin-top: 25px;
+    }
+  }
+
+  @media only screen and (max-width:500px){
+    .geral-clients{
+        width: 100%;
+        background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
+        display: grid;
+        /* justify-content: space-around; */
+        height: 1350px;
+    }
+
+    .images-logo-image img{
+        display: none;
+    }
+
+    .clients{
+        width:100%;
+        /* background-color: #03688d; */
+        padding: 0px;
+        height: 700px;
+        margin-left: 0px;
+        /* margin-top: -150px; */
+    }
+
+    .images-logo img{
+        width: 30%;
+        margin-left: 12%;
+        margin-bottom: 50px;
+      }
+
+      .card-clients{
+        width: 90%;
+        height: 170px;
+        margin-left: 5%;
+      }
   }

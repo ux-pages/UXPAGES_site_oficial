@@ -1,0 +1,133 @@
+ .elemento-com-scroll {
+    overflow: hidden;
+    width: 100%; 
+    height: 70%;
+    }
+ 
+.elemento-com-scroll img {
+    width: 100%;
+    height: auto;
+    transition: transform 4s ease; 
+}
+
+.elemento-com-scroll:hover img {
+    transform: translateY(50px); 
+}
+
+.elemento-com-scroll2{
+    overflow: hidden;
+    width: 100%; 
+    height: 70%;
+}
+
+.elemento-com-scroll2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 5s ease; 
+}
+
+.elemento-com-scroll2:hover img {
+    transform: translateY(-5050px); 
+}
+
+.elemento-com-scroll3{
+    overflow: hidden;
+    width: 100%; 
+    height: 70%;
+}
+
+.elemento-com-scroll3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 5s ease; 
+}
+
+.elemento-com-scroll3:hover img {
+    transform: translateY(-480px); 
+}
+
+.card-sites{
+    width: 20%;
+    border: none;
+    box-shadow: 0 0 0 0;
+    height: 650px;
+}
+
+.sites{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2.models{
+    text-align: center;
+}
+
+a.card-text button{
+    width: 80%;
+    margin-left: 10%;
+}
+
+p.name-site{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.nichos-sites{
+    margin-top: 100px;
+}
+
+.nichos-sites p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.alinhamento{
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    /* padding: 0; */
+    height: 100px;
+    background-color: transparent;
+}
+
+
+
+@media only screen and (max-width:1000px){
+    h2.models{
+        font-size: 40px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .nichos-sites p{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .sites{
+        display: grid;
+        width: 100%;
+    }
+    .card-sites{
+        width: 90%;
+        border: none;
+        box-shadow: 0 0 0 0;
+        margin-left: 5%;
+    }
+
+    a.card-text button{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 50px;
+    }
+    
+    p.name-site{
+        /* text-align: center; */
+        /* text-align: start; */
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+    }
+}

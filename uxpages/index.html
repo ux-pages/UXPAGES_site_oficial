@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/domain.css">
     <link rel="stylesheet" href="styles/negocio.css">
-    <link rel="stylesheet" href="styles/nicho.css">
+    <link rel="stylesheet" href="styles/modelsite.css">
     <link rel="stylesheet" href="styles/clients.css">
     <title>UX Pages</title>
 </head>
@@ -201,10 +201,44 @@
 
     <!-- MODELOS DE SITES PARA QUAL O SEGMENTO ----------------------------------------------------------------------------------------------->
      <div class="nichos-sites">
-      <h2>Modelos de Sites Prontos</h2>
+      <h2 class="models">Modelos de Sites Prontos</h2>
+      <p>Estes modelos podem ser personalizados para o seu tipo de negócio</p>
      </div>
 
-     <div id="nicho1" class="nicho">
+     <div class="sites">
+      
+      <div class="card card-sites">
+        <div class="elemento-com-scroll">
+          <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body alinhamento">
+          <p class="name-site">REDPRIME</p>
+          <a href="" class="card-text"><button>VISTAR SITE</button></a>
+        </div>
+      </div>
+
+      <div class="card card-sites">
+        <div class="elemento-com-scroll2">
+          <img src="pictures/sites/adv1.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body alinhamento">
+          <p class="name-site">ONYXGOLD</p>
+          <a href="" class="card-text"><button>VISTAR SITE</button></a>
+        </div>
+      </div>
+
+      <div class="card card-sites">
+        <div class="elemento-com-scroll3">
+          <img src="pictures/sites/adv3.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body alinhamento">
+          <p class="name-site">SIMPLESPOT</p>
+          <a href="" class="card-text"><button>VISTAR SITE</button></a>
+        </div>
+      </div>
+     </div>
+
+     <!-- <div id="nicho1" class="nicho">
       <div class="card card-nicho" onclick="openPopup('popup1')">
           <a href="javascript:void(0)">
               <img src="pictures/images/sitesimages/1.jpg" alt="Imagem de Nicho 1">
@@ -228,11 +262,11 @@
                 <h4 class="card-title">ONYXGOLD</h4>
             </div>
         </a>
-    </div>
+    </div> -->
       <!-- Adicione mais cards aqui -->
   
       <!-- Pop-ups -->
-      <div id="popup1" class="popup">
+      <!-- <div id="popup1" class="popup">
           <div class="popup-content">
               <div class="pop-site">
                 <div class="elemento-com-scroll">
@@ -251,7 +285,7 @@
             </div>
             <span class="close" onclick="closePopup('popup1')">&times;</span>
             </div>
-      </div>
+      </div> -->
 
       
       <!-- <div id="popup2" class="popup">
@@ -313,65 +347,62 @@
     </div>
   </div>
 
-<div class="clients">
-
-  <div class="card card-clients" id="client-1">
-    <div class="card-top-image">
-      <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-      <div class="card-top-text">
-        <div class="flex-text-image">
-          <h3>Alaiane Rocha</h3>
-          <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+  <div class="clients">
+    <div class="card card-clients" id="client-1">
+      <div class="card-top-image">
+        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
+        <div class="card-top-text">
+          <div class="flex-text-image">
+            <h3>Alaiane Rocha</h3>
+            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+          </div>
+          <img class="stars" src="pictures/icons/rating (1).png" alt="">
         </div>
-        <img class="stars" src="pictures/icons/rating (1).png" alt="">
+      </div>
+      <div class="card-body card-p">
+        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+        <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
+        <img src="pictures/icons/social.png" alt="">
       </div>
     </div>
-    <div class="card-body card-p">
-      <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-      <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-      <img src="pictures/icons/social.png" alt="">
-    </div>
-  </div>
-
-  <div class="card card-clients" id="client-1">
-    <div class="card-top-image">
-      <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-      <div class="card-top-text">
-        <div class="flex-text-image">
-          <h3>Alaiane Rocha</h3>
-          <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+  
+    <div class="card card-clients" id="client-2">
+      <div class="card-top-image">
+        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
+        <div class="card-top-text">
+          <div class="flex-text-image">
+            <h3>Alaiane Rocha</h3>
+            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+          </div>
+          <img class="stars" src="pictures/icons/rating (1).png" alt="">
         </div>
-        <img class="stars" src="pictures/icons/rating (1).png" alt="">
+      </div>
+      <div class="card-body card-p">
+        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+        <button class="like-btn" onclick="likePost('client-2')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
+        <img src="pictures/icons/social.png" alt="">
       </div>
     </div>
-    <div class="card-body card-p">
-      <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-      <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-      <img src="pictures/icons/social.png" alt="">
-    </div>
-  </div>
-
-  <div class="card card-clients" id="client-1">
-    <div class="card-top-image">
-      <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-      <div class="card-top-text">
-        <div class="flex-text-image">
-          <h3>Alaiane Rocha</h3>
-          <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+  
+    <div class="card card-clients" id="client-3">
+      <div class="card-top-image">
+        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
+        <div class="card-top-text">
+          <div class="flex-text-image">
+            <h3>Alaiane Rocha</h3>
+            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+          </div>
+          <img class="stars" src="pictures/icons/rating (1).png" alt="">
         </div>
-        <img class="stars" src="pictures/icons/rating (1).png" alt="">
+      </div>
+      <div class="card-body card-p">
+        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+        <button class="like-btn" onclick="likePost('client-3')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
+        <img src="pictures/icons/social.png" alt="">
       </div>
     </div>
-    <div class="card-body card-p">
-      <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-      <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-      <img src="pictures/icons/social.png" alt="">
-    </div>
   </div>
-
-</div>
-
-</div>
+  
 
 
 </body>
