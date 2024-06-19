@@ -1,408 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Googlebot" content="index">
+    <meta name="robots" content="index, follow"> <!-- Meta tag para indexação -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/domain.css">
     <link rel="stylesheet" href="styles/negocio.css">
     <link rel="stylesheet" href="styles/modelsite.css">
     <link rel="stylesheet" href="styles/clients.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/fluxograma.css">
+    <link rel="stylesheet" href="styles/accordion.css">
+    <link rel="stylesheet" href="styles/inscreva.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <title>UX Pages</title>
 </head>
-<body>
-  
-    <header>
-      
 
-      <!-- MENU DO SITE  --------------------------------------------------------------------------------------------------------->
+<body>
+
+  <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5551992794875&text=Oi">
+    <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+    </a>
+  
+  <header>
+    <!-- MENU DO SITE -->
     <div class="desktop-header">
-    <nav class="navbar naves">
-        <div class="container-fluid">
-          <a class="navbar-brand" id="logo-link"><img id="logo-image" src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="" width="150px"></a>
-          <div class="d-flex icon-nav">
-           <a href=""><img src="pictures/icons/instagram (3).png" alt="" width="25px"></a>
-           <a href=""><img src="pictures/icons/instagram (3).png" alt="" width="25px"></a>
-           <a href=""><img src="pictures/icons/instagram (3).png" alt="" width="25px"></a>
-           <a href=""><img src="pictures/icons/instagram (3).png" alt="" width="25px"></a>
-          </div>
-        </div>
-      </nav>
-      <nav class="navs navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#">Sites Profissionais Rápidos</a>
-              <a class="nav-link" href="#">Hospedagem</a>
-              <a class="nav-link" href="#">E-mail profissional</a>
-              <a class="nav-link" href="#">Google Meu Negócio</a>
-              <a class="nav-link" href="#">Domínios</a>
-              <a href="" class="nav-link">Google Analytics</a>
-              <a href="" class="nav-link">Blog</a>
-              <a href="" class="nav-link">FAQ</a>
+        <nav class="navbar naves">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" aria-label="Página Inicial">
+                    <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo da Empresa" width="150px">
+                </a>
+                <div class="d-flex icon-nav">
+                    <a href="#" aria-label="Link para Instagram"><img src="pictures/icons/instagram (3).png" alt="Instagram" width="25px"></a>
+                    <a href="#" aria-label="Link para Instagram"><img src="pictures/icons/instagram (3).png" alt="Instagram" width="25px"></a>
+                    <a href="#" aria-label="Link para Instagram"><img src="pictures/icons/instagram (3).png" alt="Instagram" width="25px"></a>
+                    <a href="#" aria-label="Link para Instagram"><img src="pictures/icons/instagram (3).png" alt="Instagram" width="25px"></a>
+                </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
+        <nav class="navs navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#" aria-label="Sites Profissionais Rápidos">Sites Profissionais Rápidos</a>
+                        <a class="nav-link" href="#" aria-label="Hospedagem">Hospedagem</a>
+                        <a class="nav-link" href="#" aria-label="E-mail profissional">E-mail profissional</a>
+                        <a class="nav-link" href="#" aria-label="Google">Google</a>
+                        <a class="nav-link" href="#" aria-label="Domínios">Domínios</a>
+                        <a href="#" class="nav-link" aria-label="Blog">Blog</a>
+                        <a href="#" class="nav-link" aria-label="FAQ">FAQ</a>
+                        <a href="#" class="nav-link" aria-label="Sobre a UX">Sobre a UX</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 
     <div class="mobile-header">
-      <nav class="navbar navs navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="" width="150px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav nav-color">
-              <div class="nav-link-one"><p>&#128640</p><a class="nav-link" href="#">Sites Profissionais Rápidos</a></div>
-              <div class="nav-link-one"><p>&#x1F527</p><a class="nav-link" href="#">Hospedagem</a></div>
-              <div class="nav-link-one"><p>&#x2709</p><a class="nav-link" href="#">E-mail profissional</a></div>
-              <div class="nav-link-one"><p>&#x1F4C8</p><a class="nav-link" href="#">Google Meu Negócio</a></div>
-              <div class="nav-link-one"><p>&#x1F524</p><a class="nav-link" href="#domain-name">Domínios</a></div>
+        <nav class="navbar navs navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" aria-label="Página Inicial">
+                    <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo da Empresa" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-color">
+                        <nav aria-label="Main navigation">
+                            <ul class="nav-links">
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#" aria-label="Sites Profissionais Rápidos">
+                                        <span class="icon" role="img" aria-hidden="true">&#128640;</span>
+                                        Sites Profissionais Rápidos
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#" aria-label="Hospedagem">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F527;</span>
+                                        Hospedagem
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#" aria-label="E-mail profissional">
+                                        <span class="icon" role="img" aria-hidden="true">&#x2709;</span>
+                                        E-mail profissional
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#" aria-label="Google">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F4C8;</span>
+                                        Google
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#domain-name" aria-label="Domínios">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F524;</span>
+                                        Domínios
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#blog" aria-label="Blog">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F4D1;</span>
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#faq" aria-label="Faq">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F4A1;</span>
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li class="nav-link-item">
+                                    <a class="nav-link" href="#about" aria-label="Sobre a UX">
+                                        <span class="icon" role="img" aria-hidden="true">&#x1F4DA;</span>
+                                        Sobre a UX
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
     </div>
 
-      <div class="itens-header">
+    <div class="itens-header">
         <div class="text-header">
-        <h1>Sua empresa crescendo enquanto você dorme</h1>
-        <p>Posicionamento digital</p>
-        <button>Saiba mais</button>
+            <h1>Sua empresa crescendo enquanto você dorme</h1>
+            <p>Posicionamento digital para alavancar seus negócios.</p>
+            <button>Saiba mais</button>
         </div>
         <div class="banner-header">
-            <img src="pictures/images/Design sem nome (28).jpg" alt="" width="250px">
+            <img src="pictures/images/Design sem nome (28).jpg" alt="Imagem de Banner" width="250px">
             <div class="image-banner-header">
-                <img src="pictures/images/Design sem nome (29).jpg" alt="" width="250px">
+                <img src="pictures/images/Design sem nome (29).jpg" alt="Outra Imagem de Banner" width="250px">
             </div>
         </div>
-      </div>
-    </header>
-
-    <!-- BUSCA POR DOMÍNIO ----------------------------------------------------------------------------------------------------->
-    <div class="domains">
-        <h2>Consulte o domínio perfeito para o seu site</h2>
-    <div class="domain-api">
-        <form id="domain-check-form">
-          <input type="text" id="domain-name" placeholder="Exemplo: nic.br">
-          <button type="button" id="check-domain-button">Verificar Disponibilidade</button>
-      </form>
-      <div id="availability-result" class="hiden"></div>
-      <div id="availability-negative"></div>
-      </div>
     </div>
+</header>
+
+<!-- BUSCA POR DOMINIO -->
+<section class="domains">
+  <div class="container">
+      <h2>Consulte o domínio perfeito para o seu site</h2>
+      <div class="domain-api">
+          <form id="domain-check-form">
+              <input type="text" id="domain-name" placeholder="Exemplo: nic.br">
+              <button type="button" id="check-domain-button">Verificar Disponibilidade</button>
+          </form>
+          <div id="availability-result" class="hidden"></div>
+          <div id="availability-negative"></div>
+      </div>
+  </div>
+</section>
 
     <!-- CARD O MELHOR PARA O SEU NEGÓCIO DESKTOP ---------------------------------------------------------------------------------------->
     <div class="negocio-desktop">
-      <div class="card">
-        <img src="pictures/images/Design sem nome (32).jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Sites Rápidos e Profissionais</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-            Lorem ipsum dolor sit amet consectetur adipisicing.
-          </p>
-          <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="pictures/images/Design sem nome (30).jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">E-mails profissionais</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, dignissimos.
-          </p>
-          <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-        </div>
-      </div>
-      <div class="card card-color-diferent">
-        <img src="pictures/images/developer-identifying-server-issues.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Hospedagem</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod!
-          </p>
-          <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="pictures/images/Design sem nome (31).jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Google Meu Negócio</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit.
-          </p>
-          <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-        </div>
-      </div>
-    </div>
-
-     <!-- CARD O MELHOR PARA O SEU NEGÓCIO MOBILE ---------------------------------------------------------------------------------------->
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card">
-            <img src="pictures/images/Design sem nome (32).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+      <div class="card card-neg">
+          <img src="pictures/images/Design sem nome (32).jpg" class="card-img-top" alt="Imagem de Sites Rápidos e Profissionais">
+          <div class="card-body">
               <h5 class="card-title">Sites Rápidos e Profissionais</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-            </div>
+              <p class="card-text">Descrição breve dos serviços oferecidos para sites rápidos e profissionais.</p>
+              <a href="#" class="btn btn-primary">VER PLANOS</a>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card">
-            <img src="pictures/images/Design sem nome (30).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">E-mails profissionais</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-            </div>
+      </div>
+      <div class="card card-neg">
+          <img src="pictures/images/Design sem nome (30).jpg" class="card-img-top" alt="Imagem de E-mails Profissionais">
+          <div class="card-body">
+              <h5 class="card-title">E-mails Profissionais</h5>
+              <p class="card-text">Descrição breve dos serviços oferecidos para e-mails profissionais.</p>
+              <a href="#" class="btn btn-primary">VER PLANOS</a>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card">
-            <img src="pictures/images/developer-identifying-server-issues.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+      </div>
+      <div class="card card-neg card-color-diferent">
+          <img src="pictures/images/developer-identifying-server-issues.jpg" class="card-img-top" alt="Imagem de Hospedagem">
+          <div class="card-body">
               <h5 class="card-title">Hospedagem</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-            </div>
+              <p class="card-text">Descrição breve dos serviços oferecidos para hospedagem de sites.</p>
+              <a href="#" class="btn btn-primary">VER PLANOS</a>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card">
-            <img src="pictures/images/Design sem nome (31).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-title">Google Meu Negócio</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary"><button>VER PLANOS</button></a>
-            </div>
+      </div>
+      <div class="card card-neg">
+          <img src="pictures/images/Design sem nome (31).jpg" class="card-img-top" alt="Imagem do Google Meu Negócio">
+          <div class="card-body">
+              <h5 class="card-title">Google Meu Negócio</h5>
+              <p class="card-text">Descrição breve dos serviços oferecidos para Google Meu Negócio.</p>
+              <a href="#" class="btn btn-primary">VER PLANOS</a>
           </div>
-        </div>
+      </div>
+  </div>
+
+  <!-- CARD O MELHOR PARA O SEU NEGÓCIO MOBILE -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="card">
+                  <img src="pictures/images/Design sem nome (32).jpg" class="card-img-top" alt="Imagem de Sites Rápidos e Profissionais">
+                  <div class="card-body">
+                      <h5 class="card-title">Sites Rápidos e Profissionais</h5>
+                      <p class="card-text">Descrição breve dos serviços oferecidos para sites rápidos e profissionais.</p>
+                      <a href="#" class="btn btn-primary">VER PLANOS</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card">
+                  <img src="pictures/images/Design sem nome (30).jpg" class="card-img-top" alt="Imagem de E-mails Profissionais">
+                  <div class="card-body">
+                      <h5 class="card-title">E-mails Profissionais</h5>
+                      <p class="card-text">Descrição breve dos serviços oferecidos para e-mails profissionais.</p>
+                      <a href="#" class="btn btn-primary">VER PLANOS</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card">
+                  <img src="pictures/images/developer-identifying-server-issues.jpg" class="card-img-top" alt="Imagem de Hospedagem">
+                  <div class="card-body">
+                      <h5 class="card-title">Hospedagem</h5>
+                      <p class="card-text">Descrição breve dos serviços oferecidos para hospedagem de sites.</p>
+                      <a href="#" class="btn btn-primary">VER PLANOS</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card">
+                  <img src="pictures/images/Design sem nome (31).jpg" class="card-img-top" alt="Imagem do Google Meu Negócio">
+                  <div class="card-body">
+                      <h5 class="card-title">Google Meu Negócio</h5>
+                      <p class="card-text">Descrição breve dos serviços oferecidos para Google Meu Negócio.</p>
+                      <a href="#" class="btn btn-primary">VER PLANOS</a>
+                  </div>
+              </div>
+          </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
       </button>
-    </div>
-
+  </div>
 
     <!-- MODELOS DE SITES PARA QUAL O SEGMENTO ----------------------------------------------------------------------------------------------->
-     <div class="nichos-sites">
+    <div class="nichos-sites">
       <h2 class="models">Modelos de Sites Prontos</h2>
       <p>Estes modelos podem ser personalizados para o seu tipo de negócio</p>
-     </div>
-
-     <div class="sites">
-      
-      <div class="card card-sites">
-        <div class="elemento-com-scroll">
-          <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body alinhamento">
-          <p class="name-site">REDPRIME</p>
-          <a href="" class="card-text"><button>VISTAR SITE</button></a>
-        </div>
-      </div>
-
-      <div class="card card-sites">
-        <div class="elemento-com-scroll2">
-          <img src="pictures/sites/adv1.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body alinhamento">
-          <p class="name-site">ONYXGOLD</p>
-          <a href="" class="card-text"><button>VISTAR SITE</button></a>
-        </div>
-      </div>
-
-      <div class="card card-sites">
-        <div class="elemento-com-scroll3">
-          <img src="pictures/sites/adv3.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body alinhamento">
-          <p class="name-site">SIMPLESPOT</p>
-          <a href="" class="card-text"><button>VISTAR SITE</button></a>
-        </div>
-      </div>
-     </div>
-
-     <!-- <div id="nicho1" class="nicho">
-      <div class="card card-nicho" onclick="openPopup('popup1')">
-          <a href="javascript:void(0)">
-              <img src="pictures/images/sitesimages/1.jpg" alt="Imagem de Nicho 1">
-              <div class="card-img-overlay">
-                  <h4 class="card-title">REDPRIME</h4>
-              </div>
-          </a>
-      </div>
-      <div class="card card-nicho" onclick="openPopup('popup2')">
-          <a href="javascript:void(0)">
-              <img src="pictures/images/sitesimages/2.jpg" alt="Imagem de Nicho 2">
-              <div class="card-img-overlay">
-                  <h4 class="card-title">SIMPLESPOT</h4>
-              </div>
-          </a>
-      </div>
-      <div class="card card-nicho" onclick="openPopup('popup3')">
-        <a href="javascript:void(0)">
-            <img src="pictures/images/sitesimages/1.jpg" alt="Imagem de Nicho 1">
-            <div class="card-img-overlay">
-                <h4 class="card-title">ONYXGOLD</h4>
-            </div>
-        </a>
-    </div> -->
-      <!-- Adicione mais cards aqui -->
+  </div>
   
-      <!-- Pop-ups -->
-      <!-- <div id="popup1" class="popup">
-          <div class="popup-content">
-              <div class="pop-site">
-                <div class="elemento-com-scroll">
-                  <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" alt="Imagem">
-              </div>
-                <h6>REDPRIME</h6>
-                <a href="https://666120c90d96f535cb7b016d--uxpagesadv3.netlify.app/"><button class="site-visit">Visitar Site</button></a>
-              </div>
-              <div class="pop-text">
-              <p class="description"><b>Destaque Visual: </b> O RedPrime utiliza cores fortes, como vermelho e preto, para garantir que seu site chame a atenção e se destaque dos concorrentes.</p>
-              <p class="description"><b>Página Inicial Impactante:</b> Projetado como uma landing page, o site é perfeito para apresentar uma visão clara e atraente da sua empresa logo na primeira página.</p>
-              <p class="description"><b>Informações Importantes:</b> Inclui seções específicas para destacar as principais informações da empresa, como serviços, equipe, e dados de contato, de forma clara e acessível.</p>
-              <p class="description"><b>Foco no Cliente:</b> Com um layout simples e eficiente, o RedPrime é ideal para empresas que desejam impactar os visitantes desde o primeiro momento, proporcionando uma experiência visual marcante.</p>
-              <p class="description">Este modelo foi baseado na area de advocacia, podendo ser personalizado para qualquer area</p>
-              
-            </div>
-            <span class="close" onclick="closePopup('popup1')">&times;</span>
-            </div>
-      </div> -->
-
-      
-      <!-- <div id="popup2" class="popup">
-          <div class="popup-content">
-            <div class="pop-site">
-              <div class="elemento-com-scroll2">
-                <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" alt="Imagem">
-              </div>
-              <h6>SIMPLESPOT</h6>
-              <a href="https://666120c90d96f535cb7b016d--uxpagesadv3.netlify.app/"><button class="site-visit">Visitar Site</button></a>
-            </div>
-             <div class="pop-text">
-              <p class="description"> <b>Simplicidade em Destaque:</b> O <b>SimpleSpot</b> foi projetado para ser fácil de usar e entender, destacando o que realmente importa: suas informações de negócios.</p>
-              <p class="description"> <b>Foco na Essência:</b> Este site único de página única concentra-se nas informações essenciais da sua empresa, como produtos, serviços e formas de contato, sem distrações desnecessárias.</p>
-              <p class="description"><b>Design Minimalista: </b>Com um design limpo e minimalista, o SimpleSpot oferece uma experiência de usuário intuitiva, garantindo que os visitantes encontrem rapidamente o que estão procurando.</p>
-             </div>
-             <span class="close" onclick="closePopup('popup2')">&times;</span>
-             </div>
-      </div>
-
-      <div id="popup3" class="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup('popup3')">&times;</span>
-            <h6>ONYXGOLD</h6>
-           <p class="description"><b>Simplicidade e Eficácia: </b> O <b>OnyxGold </b>oferece uma abordagem simples e eficaz para apresentar as informações mais importantes sobre sua empresa, garantindo que os visitantes encontrem rapidamente o que estão procurando.</p>
-           <p class="description"><b>Toque de Sofisticação: </b>Combinando o poder do "Onyx" (que remete a uma pedra preciosa negra) com a exclusividade do "Gold", o <b>OnyxGold</b> adiciona um toque de sofisticação e elegância ao seu site.</p>
-           <p class="description"><b>Acessibilidade e Clareza: </b> Projetado para ser acessível e fácil de entender para todos os usuários, o <b>OnyxGold</b>  mantém um design intuitivo que permite uma navegação suave e uma experiência agradável para o usuário.</p>
-           <a href="https://666120c90d96f535cb7b016d--uxpagesadv3.netlify.app/"><button class="site-visit">Visitar Site</button></a>
+  <div class="sites">
+      <article class="card card-sites">
+          <figure class="elemento-com-scroll">
+              <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" class="card-img-top" alt="Modelo REDPRIME">
+          </figure>
+          <div class="card-body alinhamento">
+              <h3 class="name-site">REDPRIME</h3>
+              <a href="#" class="btn btn-primary">VISITAR SITE</a>
           </div>
-    </div> -->
+      </article>
+  
+      <article class="card card-sites">
+          <figure class="elemento-com-scroll2">
+              <img src="pictures/sites/adv1.png" class="card-img-top" alt="Modelo ONYXGOLD">
+          </figure>
+          <div class="card-body alinhamento">
+              <h3 class="name-site">ONYXGOLD</h3>
+              <a href="#" class="btn btn-primary">VISITAR SITE</a>
+          </div>
+      </article>
+  
+      <article class="card card-sites">
+          <figure class="elemento-com-scroll3">
+              <img src="pictures/sites/adv3.png" class="card-img-top" alt="Modelo SIMPLESPOT">
+          </figure>
+          <div class="card-body alinhamento">
+              <h3 class="name-site">SIMPLESPOT</h3>
+              <a href="#" class="btn btn-primary">VISITAR SITE</a>
+          </div>
+      </article>
+  </div>
+  
 
+    
 
 <!-- O QUE NOSSOS CLIENTES FALAM DE NÓS -->
 
 <div class="geral-clients">
-
-
-
   <div class="clients-speak">
-    <p><b>Nossos clientes</b></p>
-    <div class="images-logo">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-    </div>
-    <div class="images-logo-image">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-    </div>
-    <div class="images-logo">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-      <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="">
-    </div>
+      <p><b>Nossos clientes</b></p>
+      <div class="images-logo">
+          <ul class="client-logos">
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <!-- <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li> -->
+          </ul>
+          <ul class="client-logos-two">
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <!-- <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li> -->
+          </ul>
+          <ul class="client-logos">
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li>
+              <!-- <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt=""></li> -->
+          </ul>
+      </div>
   </div>
 
   <div class="clients">
-    <div class="card card-clients" id="client-1">
-      <div class="card-top-image">
-        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-        <div class="card-top-text">
-          <div class="flex-text-image">
-            <h3>Alaiane Rocha</h3>
-            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+      <article class="card card-clients" id="client-1">
+          <div class="card-top-image">
+              <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="Imagem do cliente 1">
+              <div class="card-top-text">
+                  <div class="flex-text-image">
+                      <h3>Alaiane Rocha</h3>
+                      <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="Ícone de checklist">
+                  </div>
+                  <img class="stars" src="pictures/icons/rating (1).png" alt="Classificação de estrelas">
+              </div>
           </div>
-          <img class="stars" src="pictures/icons/rating (1).png" alt="">
+          <div class="card-body card-p">
+              <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+              <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt="Ícone de curtida"><span class="like-count">0</span></button>
+              <img src="pictures/icons/social.png" alt="Ícone de mídias sociais">
+          </div>
+      </article>
+
+      <article class="card card-clients" id="client-2">
+        <div class="card-top-image">
+            <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="Imagem do cliente 1">
+            <div class="card-top-text">
+                <div class="flex-text-image">
+                    <h3>Alaiane Rocha</h3>
+                    <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="Ícone de checklist">
+                </div>
+                <img class="stars" src="pictures/icons/rating (1).png" alt="Classificação de estrelas">
+            </div>
         </div>
+        <div class="card-body card-p">
+            <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+            <button class="like-btn" onclick="likePost('client-2')"><img class="likes" src="pictures/icons/like.png" alt="Ícone de curtida"><span class="like-count">0</span></button>
+            <img src="pictures/icons/social.png" alt="Ícone de mídias sociais">
+        </div>
+    </article>
+
+    <article class="card card-clients" id="client-3">
+      <div class="card-top-image">
+          <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="Imagem do cliente 1">
+          <div class="card-top-text">
+              <div class="flex-text-image">
+                  <h3>Alaiane Rocha</h3>
+                  <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="Ícone de checklist">
+              </div>
+              <img class="stars" src="pictures/icons/rating (1).png" alt="Classificação de estrelas">
+          </div>
       </div>
       <div class="card-body card-p">
-        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-        <button class="like-btn" onclick="likePost('client-1')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-        <img src="pictures/icons/social.png" alt="">
+          <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
+          <button class="like-btn" onclick="likePost('client-3')"><img class="likes" src="pictures/icons/like.png" alt="Ícone de curtida"><span class="like-count">0</span></button>
+          <img src="pictures/icons/social.png" alt="Ícone de mídias sociais">
       </div>
+  </article>
+  </div>
+</div>
+
+<!-- TUDO PARA SUA EMPRESA ALAVANCAR ------------------------------------------------------------------------------------------------------->
+
+<section class="tudo-para-seu-negocio">
+    <div class="business">
+        <h3>TUDO PARA ALAVANCAR SUA EMPRESA</h3>
+      </div>
+      <div class="fluxogramas">
+        <div class="card-fluxograma" data-animation="animate__fadeInLeft">
+          <img src="pictures/busca/google-analytics.png" alt="Google Analytics" width="80px">
+          <p>Google Analytics</p>
+        </div>
+        <div class="card-fluxograma" data-animation="animate__fadeInDown">
+          <img src="pictures/busca/google (2).png" alt="SEO" width="80px">
+          <p>SEO</p>
+        </div>
+        <div class="card-fluxograma" data-animation="animate__fadeInRight">
+          <img src="pictures/busca/certificado-ssl.png" alt="Certificado de Segurança SSL" width="80px">
+          <p>Certificado de Segurança SSL</p>
+        </div>
+      </div>
+      <div class="fluxogramas">
+        <div class="card-fluxograma" data-animation="animate__fadeInLeft">
+          <img src="pictures/busca/index.png" alt="Páginas Indexadas" width="80px">
+          <p>Páginas Indexadas</p>
+        </div>
+        <div class="card-fluxograma" data-animation="animate__fadeInUp">
+          <img src="pictures/busca/rede-de-pastas.png" alt="Hospedagem Segura" width="80px">
+          <p>Hospedagem Segura</p>
+        </div>
+        <div class="card-fluxograma" data-animation="animate__fadeInRight">
+          <img src="pictures/busca/computador.png" alt="Editor de site" width="80px">
+          <p>Editor de site</p>
+        </div>
+      </div>
+      
+      
+
+    <div class="fluxo-mobile">
+        <div class="card-fluxograma">
+            <img src="pictures/busca/google-analytics.png" alt="Google Analytics" width="80px">
+            <p>Google Analytics</p>
+        </div>
+        <div class="card-fluxograma">
+            <img src="pictures/busca/google (2).png" alt="SEO" width="80px">
+            <p>SEO</p>
+        </div>
+        <div class="card-fluxograma">
+            <img src="pictures/busca/certificado-ssl.png" alt="Certificado de Segurança SSL" width="80px">
+            <p>Certificado de Segurança SSL</p>
+        </div>
+        <div class="card-fluxograma">
+            <img src="pictures/busca/index.png" alt="Páginas Indexadas" width="80px">
+            <p>Páginas Indexadas</p>
+        </div>
+        <div class="card-fluxograma">
+            <img src="pictures/busca/rede-de-pastas.png" alt="Hospedagem Segura" width="80px">
+            <p>Hospedagem Segura</p>
+        </div>
+        <div class="card-fluxograma">
+            <img src="pictures/busca/computador.png" alt="Editor de site" width="80px">
+            <p>Editor de site</p>
+        </div>
     </div>
+</section>
+
+
+
   
-    <div class="card card-clients" id="client-2">
-      <div class="card-top-image">
-        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-        <div class="card-top-text">
-          <div class="flex-text-image">
-            <h3>Alaiane Rocha</h3>
-            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
-          </div>
-          <img class="stars" src="pictures/icons/rating (1).png" alt="">
-        </div>
-      </div>
-      <div class="card-body card-p">
-        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-        <button class="like-btn" onclick="likePost('client-2')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-        <img src="pictures/icons/social.png" alt="">
-      </div>
+<!-- blog -->
+
+<div class="geral-blog-desktop">
+    <div class="blog-text">
+        <p>Blog da UX</p>
     </div>
+    <div class="blogs-card">
+      <div class="card card-blogs">
+          <img src="pictures/images/blog images/Design sem nome (37) (2).jpg" class="card-img-top" alt="10 Motivos para Ter um Site">
+          <div class="card-body">
+            <h5 class="card-title">10 Motivos para Ter um Site</h5>
+            <p class="card-text">Em um mundo cada vez mais digital, ter um site não é mais uma opção, mas uma necessidade para qualquer empresa que deseja crescer e...</p><a href="#" class="blog-link">Ler mais</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Publicado 16/06/2024</small>
+          </div>
+      </div>
   
-    <div class="card card-clients" id="client-3">
-      <div class="card-top-image">
-        <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="">
-        <div class="card-top-text">
-          <div class="flex-text-image">
-            <h3>Alaiane Rocha</h3>
-            <img class="flex-text-image-bottom" src="pictures/icons/checklist.png" alt="">
+      <div class="card card-blogs">
+          <img src="pictures/images/blog images/Design sem nome (38) (1).jpg" class="card-img-top" alt="O Crescimento das Empresas Brasileiras na Internet">
+          <div class="card-body">
+            <h5 class="card-title">O Crescimento das Empresas Brasileiras na Internet: Revolução Digital no Brasil</h5>
+            <p class="card-text">A era digital está transformando o panorama empresarial global...</p><a href="#" class="blog-link">Ler mais</a>
           </div>
-          <img class="stars" src="pictures/icons/rating (1).png" alt="">
-        </div>
+          <div class="card-footer">
+            <small class="text-muted">Publicado 16/06/2024</small>
+          </div>
       </div>
-      <div class="card-body card-p">
-        <p class="card-texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos!</p>
-        <button class="like-btn" onclick="likePost('client-3')"><img class="likes" src="pictures/icons/like.png" alt=""><span class="like-count">0</span></button>
-        <img src="pictures/icons/social.png" alt="">
+  
+      <div class="card card-blogs">
+          <img src="pictures/images/blog images/Design sem nome (39) (2).jpg" class="card-img-top" alt="SEO: Como Melhorar a Visibilidade do Seu Novo Site">
+          <div class="card-body">
+            <h5 class="card-title">SEO: Como Melhorar a Visibilidade do Seu Novo Site</h5>
+            <p class="card-text">Se você acabou de lançar um novo site, provavelmente está se perguntando como fazer com que...</p><a href="#" class="blog-link">Ler mais</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Publicado 16/06/2024</small>
+          </div>
       </div>
     </div>
+    <button class="btn-blog">Ver mais artigos</button>
   </div>
   
+
+<div class="geral-blog-mobile">
+  <div class="blog-text">
+      <p>Blog da UX</p>
+  </div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card card-blogs">
+              <img src="pictures/images/blog images/Design sem nome (37) (2).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">10 Motivos para Ter um Site</h5>
+                <p class="card-text">Em um mundo cada vez mais digital, ter um site não é mais uma opção, mas uma necessidade para qualquer empresa que deseja crescer e...</p><a href="" class="blog-link">Ler mais</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Publicado 16/06/2024</small>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-blogs">
+              <img src="pictures/images/blog images/Design sem nome (38) (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">O Crescimento das Empresas Brasileiras na Internet: Revolução Digital no Brasil</h5>
+                <p class="card-text">A era digital está transformando o panorama empresarial global...</p><a href="" class="blog-link">Ler mais</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Publicado 16/06/2024</small>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-blogs">
+              <img src="pictures/images/blog images/Design sem nome (39) (2).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SEO: Como Melhorar a Visibilidade do Seu Novo Site</h5>
+                <p class="card-text">Se você acabou de lançar um novo site, provavelmente está se perguntando como fazer com que...</p><a href="" class="blog-link">Ler mais</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Publicado 16/06/2024</small>
+              </div>
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <a href=""><button class="btn-blog">Ver mais artigos</button></a>
+</div>
+
+
+<!-- Faq -------------------------------------------------------------------------------------------------------------------------------->
+<div class="duvidas">
+    Ficou na dúvida?
+</div>
+<div class="faq">
+    <button class="uxpages">Sobre a UX Pages</button>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Posso fazer alterações no meu site após ele estar pronto?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                O que é SEO e por que é importante para o meu site?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                A hospedagem inclui suporte técnico?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<!-- EMAILL ------------------------------------------------------------------------------------------------------------------------->
+
+<div class="inscreva">
+    <div class="text-inscreva">
+        <h6> Fique por dentro das ultimas na UX Pages</h6>
+        <p>Saiba de todas as novidades na UX Pages</p>
+    </div>
+    <div class="input-group flex-nowrap">
+        <!-- <span class="input-group-text" id="addon-wrapping">@</span> -->
+        <input type="text" class="form-control" placeholder="Digite seu e-mail" aria-label="Username" aria-describedby="addon-wrapping">
+        <button class="novidades">Receber Novidades</button>
+      </div>
+</div>
+
+<!-- footer ---------------------------------------------------------------------------------------------------------------------->
+
+<footer>
+    <div class="footer-images">
+      <img class="logo-footer" src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo" width="300px">
+      <img src="pictures/images-removebg-preview.png" alt="Imagem" width="100px" height="100px">
+      <div class="redes-footer">
+          <a href="" target="_blank">
+              <img src="pictures/icons/instagram (3).png" alt="Instagram" width="40px">
+          </a>
+          <a href="" target="_blank">
+              <img src="pictures/icons/instagram (3).png" alt="Facebook" width="40px">
+          </a>
+          <a href="" target="_blank">
+              <img src="pictures/icons/instagram (3).png" alt="Twitter" width="40px">
+          </a>
+          <a href="" target="_blank">
+              <img src="pictures/icons/instagram (3).png" alt="LinkedIn" width="40px">
+          </a>
+          <a href="" target="_blank">
+              <img src="pictures/icons/instagram (3).png" alt="YouTube" width="40px">
+          </a>
+      </div>
+    </div>
+  
+    <div class="navs-footer">
+      <div class="footer-nav-one">
+          <h6>Sites</h6>
+          <a href="https://www.institucional.com" target="_blank">Site Institucional</a>
+          <a href="https://www.landingpage.com" target="_blank">Site LandingPage</a>
+          <a href="https://www.blog.com" target="_blank">Site Blog</a>
+          <a href="https://www.ecommerce.com" target="_blank">E-Commerce</a>
+      </div>
+  
+      <div class="footer-nav-one">
+          <h6>E-mail</h6>
+          <a href="mailto:contato@institucional.com">Site Institucional</a>
+          <a href="mailto:contato@landingpage.com">Site LandingPage</a>
+          <a href="mailto:contato@blog.com">Site Blog</a>
+          <a href="mailto:contato@ecommerce.com">E-Commerce</a>
+      </div>
+  
+      <div class="footer-nav-one">
+          <h6>E-mail</h6>
+          <a href="mailto:contato@institucional.com">Site Institucional</a>
+          <a href="mailto:contato@landingpage.com">Site LandingPage</a>
+          <a href="mailto:contato@blog.com">Site Blog</a>
+          <a href="mailto:contato@ecommerce.com">E-Commerce</a>
+      </div>
+  
+      <div class="footer-nav-one">
+          <h6>E-mail</h6>
+          <a href="mailto:contato@institucional.com">Site Institucional</a>
+          <a href="mailto:contato@landingpage.com">Site LandingPage</a>
+          <a href="mailto:contato@blog.com">Site Blog</a>
+          <a href="mailto:contato@ecommerce.com">E-Commerce</a>
+      </div>
+    </div>
+
+    <div class="direitos-reservados">
+
+    </div>
+  </footer>
+  
+
 
 
 </body>
@@ -413,4 +683,19 @@
 <script src="src/componets/like.js"></script>
 <script src="src/componets/fadescrol.js"></script>
 <script src="src/componets/popup.js"></script>
+<script src="src/componets/fadefluxo.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6HPRRFJPQM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6HPRRFJPQM');
+</script>
+<script src="src/componets/fade.js"></script>
+  
+  </script>
+  
+  
 </html>

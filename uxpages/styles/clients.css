@@ -71,6 +71,7 @@ button.like-btn{
     margin-left: -20px;
     background-color: transparent;
     margin-top: -40px;
+    border: none;
 }
 
 button.like-btn:hover{
@@ -110,21 +111,32 @@ span.like-count{
   }
 
 
-  .images-logo img{
+  .client-logos img{
     width: 150px;
     margin-left: 40px;
     margin-bottom: 50px;
   }
 
-  .images-logo-image img{
+  ul li{
+    list-style: none;
+  }
+
+  .client-logos-two img{
     width: 150px;
-    margin-left: 40px;
+    margin-left: 90px;
     margin-bottom: 50px;
     display: block;
   }
 
+  .client-logos, .client-logos-two{
+    display: flex;
+    /* margin-top: 200px; */
+    margin-left: 40px;
+  }
+
   .clients-speak{
     margin-top: 140px;
+    width: 50%;
   }
 
   .clients-speak p{
@@ -134,6 +146,11 @@ span.like-count{
     font-size: 40px;
   }
 
+  /* .images-logo{
+    margin-left: -100px;
+  } */
+
+
 
   @media only screen and (max-width:1300px) and (min-width:1000px){
     .card-clients{
@@ -142,6 +159,7 @@ span.like-count{
         height: 190px;
         margin-top: 25px;
     }
+  
   }
 
   @media only screen and (max-width:500px){
@@ -150,31 +168,64 @@ span.like-count{
         background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
         display: grid;
         /* justify-content: space-around; */
-        height: 1350px;
+        height: 1800px;
     }
 
-    .images-logo-image img{
-        display: none;
+    .clients-speak p{
+      margin-top: -80px;
+      margin-bottom: 70px;
+      text-align: center;
+      font-size: 40px;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    .client-logos, .client-logos-two{
+      display: grid;
+      /* margin-top: 200px; */
+      margin-left: 0px;
+      align-items: center;
+    }
+
+    .clients-speak{
+      margin-top: 140px;
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .client-logos img{
+      width: 60%;
+      margin-bottom: 50px;
+    }
+
+    .client-logos{
+      margin-bottom: 0px;
+    }
+
+    .client-logos-two img{
+      width: 150px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      display: none;
     }
 
     .clients{
-        width:100%;
-        /* background-color: #03688d; */
-        padding: 0px;
-        height: 700px;
-        margin-left: 0px;
-        /* margin-top: -150px; */
-    }
+      width:94%;
+      margin-left: 3%;
+      /* background-color: #03688d; */
+      padding: 20px;
+      height: 700px;
+      margin-top: -80px;
+  }
 
-    .images-logo img{
-        width: 30%;
-        margin-left: 12%;
-        margin-bottom: 50px;
-      }
+  .card-clients{
+    width: 100%;
+    padding: 10px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
 
-      .card-clients{
-        width: 90%;
-        height: 170px;
-        margin-left: 5%;
-      }
+
+
   }

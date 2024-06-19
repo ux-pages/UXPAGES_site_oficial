@@ -4,6 +4,7 @@
 }
 
 
+
 .navbar{
     margin-left: 80px;
     margin-right: 80px;
@@ -14,11 +15,12 @@
     background-color: white;
     height: 70px;
     border-radius: 10px;
+    list-style: none;
 }
 
 .nav-item{
     color:  rgb(0, 97, 133);
-    font: bold;
+    font-weight: bold;
 }
 
 header{
@@ -34,6 +36,7 @@ header{
 .nav-link{
     font-size: 16px;
     margin-left: 15px;
+    list-style: none;
 }
 
 #availability-result{
@@ -50,10 +53,12 @@ header{
     width: 40%;
     margin-top: 30px;
     color: white;
+    /* margin-left: 5%; */
 }
 
 .text-header p{
     margin-top: 30px;
+    /* width: 80%; */
 }
 
 .text-header button{
@@ -87,47 +92,18 @@ header{
     margin-left: 150px;
 }
 
+.nav-links{
+    list-style: none;
+}
 
 
 .mobile-header{
     display: none;
 }
 
-@media only screen and (max-width:500px){
-    .itens-header{
-        display: grid;
-        justify-content: space-evenly;
-        width: 80%;
-        margin-left: 5%;
-        margin-top: 10px;
-    }
 
-    .text-header{
-        width: 80%;
-        margin-top: 30px;
-        color: white;
-    }
 
-    .text-header h1{
-        font-size: 40px;
-    }
 
-    header{
-        height: 900px;
-        background-color: #03688d;        ;
-        background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55))
-    }
-
-    .banner-header{
-        margin-top: 50px;
-        width: 80%;
-        margin-left: 5%;
-    }
-
-    .image-banner-header{
-        margin-left: 30%;
-    }
-}
 
 
 @media only screen and (max-width:1000px){
@@ -156,6 +132,8 @@ header{
         background-color: transparent;
         height: 70px;
         border-radius: 10px;
+        width: 72%;
+        margin-left: 13%;
     }
 
     .navbar-toggler{
@@ -185,4 +163,59 @@ header{
         border: none;
     }
 
+}
+
+@media only screen and (max-width:500px){
+    .itens-header{
+        display: grid;
+        justify-content: space-evenly;
+        width: 95%;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+
+    .nav-link{
+        font-size: 16px;
+        margin-left: -15px;
+        list-style: none;
+    }
+
+    .text-header{
+        width: 80%;
+        margin-top: 30px;
+        color: white;
+    }
+
+    .text-header h1{
+        font-size: 40px;
+    }
+
+    header{
+        height: 900px;
+        background-color: #03688d;        
+        background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55))
+    }
+
+    .banner-header{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .image-banner-header{
+        margin-left: 25%;
+    }
+
+    span.icon{
+        margin-left: -10px;
+    }
+
+    .navs{
+        margin-top: 0px;
+        background-color: transparent;
+        height: 70px;
+        border-radius: 10px;
+        width: 100%;
+        margin-left: 0%;
+    }
 }

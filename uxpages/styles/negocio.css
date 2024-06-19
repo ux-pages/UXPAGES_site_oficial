@@ -1,3 +1,11 @@
+#robbu-whatsapp-button {
+    position: fixed!important; /* ou absolute, dependendo de onde você quer que ele fique */
+    z-index: 150!important;
+    bottom: 20px; /* Ajuste a posição conforme necessário */
+    right: 20px; /* Ajuste a posição conforme necessário */
+}
+
+
 .negocio-desktop{
     display: block;
     display: flex;
@@ -13,31 +21,29 @@
 
 .card{
     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
-.card-body a{
-    background-color: transparent;
-    border: none;
-}
+
 
 .card-body a:hover{
     background-color: transparent;
 }
 
-.card-body button{
+a.btn{
     background-color: #e85303;
     color: white;
     border: none;
     border-radius: 40px;
-    width: 150%;
-    margin-left: -10%;
-    font-size: 16px;
+    width: 70%;
+    /* margin-left: -10%; */
+    font-size: 14px;
     text-align: center;
     /* padding-left: 25px; */
-    height: 60px;
+    height: 35px;
 }
 
-.card-body button:hover{
+.card-body a:hover{
     background-color: white;
     color: rgb(232, 83, 3);
     border: 1px solid rgb(232, 83, 3);
@@ -50,6 +56,18 @@
 .card-color-diferent{
     background-color: rgb(246, 244, 244);
 }
+
+.card-neg {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  /* Estilo aplicado quando a animação estiver ativa */
+  .card.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 @media only screen and (max-width:1000px){
     .carousel{

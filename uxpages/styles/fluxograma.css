@@ -1,0 +1,127 @@
+
+.fluxogramas{
+    width: 70%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.fluxo-mobile{
+    display: none;
+}
+
+.fluxogramass{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.card-fluxograma{
+    width: 25%;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-fluxogramas{
+    width: 25%;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-fluxograma p{
+    margin-top: 20px;
+}
+
+
+.business h3{
+    font-weight: bold;
+    text-align: center;
+    color: #e85303;
+}
+
+.tudo-para-seu-negocio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.animate__animated {
+    animation-duration: 1s; /* Defina a duração da animação conforme necessário */
+  }
+  
+  .animate__fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  
+  .animate__fadeInDown {
+    animation-name: fadeInDown;
+  }
+  
+  .animate__fadeInRight {
+    animation-name: fadeInRight;
+  }
+  
+  /* Defina as keyframes para as animações fadeIn */
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+
+@media only screen and (max-width:500px){
+    .fluxogramas{
+       display: none;
+    }
+
+    .fluxo-mobile{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .card-fluxograma{
+        width: 100%;
+        /* margin-left: 5%; */
+        margin-top: 20px;
+    }
+
+}
