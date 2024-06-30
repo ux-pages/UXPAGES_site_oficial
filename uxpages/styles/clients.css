@@ -6,7 +6,7 @@
 .card-clients{
     width: 100%;
     padding: 10px;
-    height: 160px;
+    height: 190px;
     margin-top: 40px;
 }
 
@@ -44,7 +44,7 @@ img.flex-text-image-bottom{
     background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
     display: flex;
     justify-content: space-around;
-    height: 700px;
+    height: 780px;
 }
 
 img.image-client{
