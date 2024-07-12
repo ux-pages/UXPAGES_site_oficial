@@ -9,6 +9,10 @@ h1 {
     font-size: 50px;
 }
 
+h3{
+    color: rgb(0, 97, 133);
+}
+
 h2 {
     margin-top: 40px;
     color: #e85303;
@@ -141,7 +145,7 @@ a{
         margin-top: 70px;
     }
 
-    h6{
+    h6.card-title{
         margin-top: -10px;
         margin-left: 100px;
         /* margin-left: 90px; */
