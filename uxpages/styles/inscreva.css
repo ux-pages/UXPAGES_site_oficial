@@ -50,7 +50,7 @@ button.novidades{
         width: 80%;
         border-radius: 15px;
         background-color: white;
-        height: 250px;
+        height: 290px;
         margin-top: 100px;
         padding-top: 40px;
         margin-left: 10%;
@@ -79,10 +79,21 @@ button.novidades{
         width: 90%;
         border-radius: 25px;
         margin-left: 5%;
+        display: grid;
+        padding-bottom: 20px;
     }
 
     .novidades{
-        width: 40%;
+        width: 100%;
         font-size: 13px;
+        border-radius: 15px!important;
+        /* margin-left: 10%; */
+        margin-top: 15px;
+        height: 30px;
+    }
+
+    input.form-control{
+        border-radius: 15px!important;
+        width: 100%!important;
     }
 }

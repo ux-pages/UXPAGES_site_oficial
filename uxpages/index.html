@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Googlebot" content="index">
-    <meta name="robots" content="index, follow"> <!-- Meta tag para indexação -->
+    <meta name="theme-color" content="#006185">
+    <!-- Meta tag para indexação -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta description para SEO -->
+    <meta name="description" content="UX Pages - Melhorando a experiência do usuário através de soluções inovadoras e práticas. Explore nossas páginas para saber mais sobre design, usabilidade e tendências de UX.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
@@ -21,10 +24,11 @@
     <title>UX Pages</title>
 </head>
 
+
 <body>
 
   <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5551992794875&text=Oi">
-    <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+    <img alt="whats" src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
     </a>
   
     <header>
@@ -55,7 +59,7 @@
                             <a class="nav-link" href="#" aria-label="E-mail Profissional - [Nome da Empresa]">E-mail Profissional</a>
                             <a class="nav-link" href="#" aria-label="Soluções Google - [Nome da Empresa]">Google</a>
                             <a class="nav-link" href="#" aria-label="Registro de Domínios - [Nome da Empresa]">Domínios</a>
-                            <a href="#" class="nav-link" aria-label="Blog - [Nome da Empresa]">Blog</a>
+                            <a href="pages/blogs/blog1/blog1.html" class="nav-link" aria-label="Blog - [Nome da Empresa]">Blog</a>
                             <a href="#" class="nav-link" aria-label="Perguntas Frequentes - FAQ - [Nome da Empresa]">FAQ</a>
                             <a href="#" class="nav-link" aria-label="Sobre a UX - [Nome da Empresa]">Sobre a UX</a>
                         </div>
@@ -108,7 +112,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-link-item">
-                                        <a class="nav-link" href="#blog" aria-label="Blog - [Nome da Empresa]">
+                                        <a class="nav-link" href="pages/blogs/blog1/blog1.html" aria-label="Blog - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x1F4D1;</span>
                                             Blog
                                         </a>
@@ -267,7 +271,7 @@
             </figure>
             <div class="card-body alinhamento">
                 <h3 class="name-site">REDPRIME</h3>
-                <a href="#" class="btn btn-primary" aria-label="Visitar o site modelo REDPRIME">VISITAR SITE</a>
+                <a href="https://666120c90d96f535cb7b016d--uxpagesadv3.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo REDPRIME">VISITAR SITE</a>
             </div>
         </article>
     
@@ -277,7 +281,7 @@
             </figure>
             <div class="card-body alinhamento">
                 <h3 class="name-site">ONYXGOLD</h3>
-                <a href="#" class="btn btn-primary" aria-label="Visitar o site modelo ONYXGOLD">VISITAR SITE</a>
+                <a href="https://uxpages-adv1.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo ONYXGOLD">VISITAR SITE</a>
             </div>
         </article>
     
@@ -287,7 +291,7 @@
             </figure>
             <div class="card-body alinhamento">
                 <h3 class="name-site">SIMPLESPOT</h3>
-                <a href="#" class="btn btn-primary" aria-label="Visitar o site modelo SIMPLESPOT">VISITAR SITE</a>
+                <a href="https://uxpages-adv2.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo SIMPLESPOT">VISITAR SITE</a>
             </div>
         </article>
     </div>
@@ -340,7 +344,7 @@
 
         <article class="card card-clients" id="client-2">
             <div class="card-top-image">
-                <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="Foto do cliente João Silva">
+                <img class="image-client" src="pictures/images/blog images/Design sem nome.jpg" alt="Foto do cliente João Silva">
                 <div class="card-top-text">
                     <div class="flex-text-image">
                         <h3>João Silva</h3>
@@ -450,7 +454,7 @@
 <!-- blog -->
 
 <div class="geral-blog-desktop">
-    <div class="blog-text">
+    <div class="blog-text" id="chama-blog">
         <p>Blog da UX</p>
     </div>
     <div class="blogs-card">
