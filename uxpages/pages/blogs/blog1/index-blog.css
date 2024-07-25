@@ -1,0 +1,372 @@
+
+.header-init{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    
+}
+
+.conteudi {
+    width: 90%;
+    margin-left: 0%;
+    height: 330px;
+    position: relative;  
+    overflow: hidden; 
+    background-image: url(../images-blog/Design\ sem\ nome\ \(3\).jpg);
+    background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no contêiner */
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um filtro escuro com 50% de opacidade */
+    background-blend-mode: overlay; /* Combina a cor de fundo com a imagem */
+    transition: background-size 4s ease; /* Suaviza a transição do tamanho da imagem de fundo */
+}
+
+.conteudi:hover {
+    background-size: 120%; /* Aumenta o tamanho da imagem de fundo ao passar o mouse */
+}
+
+
+
+.tag{
+    width: 150px;
+    background-color: red;
+    font-size: 11px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.tag-site{
+    width: 150px;
+    background-color: green;
+    font-size: 11px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.tag-seo{
+    width: 150px;
+    background-color: yellow;
+    font-size: 11px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card-title{
+   font-size: 12px;
+}
+
+.card-init{
+    width: 300px
+}
+
+.group-init{
+    width: 500px;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.categories-list {
+    list-style-type: none; /* Remove as bolinhas ou marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    width: 20%;
+}
+
+
+
+
+
+.card-blogs img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.categories-list {
+    list-style-type: none; /* Remove as bolinhas ou marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    width: 30%;
+}
+
+.categories-list h4 {
+    margin-bottom: 15px;
+}
+
+.categories-list li {
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid #0056b3;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.categories-list h4{
+    text-align: center;
+    width: 250px;
+}
+
+.categories-list li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #e85303; /* Cor do link */
+    transition: color 0.3s ease; /* Transição suave para a cor do link */
+}
+
+.categories-list li a:hover {
+    color: #0056b3; /* Cor do link quando o mouse passa sobre ele */
+}
+
+.categorias-blog {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+.card-blogs {
+    flex: 0 1 250px!important; /* Tamanho fixo dos cards */
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-blogs img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h5 {
+    margin: 15px 0 10px;
+}
+
+.card-body p {
+    flex: 1;
+}
+
+.card-footer {
+    text-align: right;
+}
+
+.blog-link {
+    color: #e85303;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+}
+
+.ajust{
+    margin-left: 20%;
+    margin-top: -10px;
+}
+
+.alte h5{
+    margin-top: 0px;
+}
+
+#headingOne{
+    margin-top: 0px;
+}
+
+#blog-redi{
+    border-top: 1px solid #0056b3;
+    border-bottom: 1px solid #0056b3;
+}
+
+.alter h5{
+    font-size: 17px;
+}
+
+.dropdown{
+    margin-left: 0px;
+}
+
+@media only screen and (max-width:500px) and (min-width:380px){
+    .header-init{
+        display: grid;
+        margin: 0;
+    }
+    .conteudi {
+        width: 100%;
+        margin-left: 5%;
+        height: 330px;
+        position: relative;  
+        overflow: hidden; 
+        background-image: url(../images-blog/Design\ sem\ nome\ \(3\).jpg);
+        background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        background-position: center; /* Centraliza a imagem no contêiner */
+        background-color: rgba(0, 0, 0, 0.5); /* Adiciona um filtro escuro com 50% de opacidade */
+        background-blend-mode: overlay; /* Combina a cor de fundo com a imagem */
+        transition: background-size 4s ease; /* Suaviza a transição do tamanho da imagem de fundo */
+    }
+
+    .card-title{
+        font-size: 12px;
+     }
+     
+     .card-init{
+         width: 100%;
+     }
+     
+     .group-init{
+         width: 90%;
+         margin-left: 10%;
+         align-items: center;
+     }
+}
+
+
+
+@media only screen and (max-width:500px){
+    .categorias-blog {
+        display: grid;
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 50px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .categories-list {
+        list-style-type: none; /* Remove as bolinhas ou marcadores da lista */
+        padding: 0; /* Remove o preenchimento padrão da lista */
+        width: 90%;
+        display: grid;
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        align-items: center; /* Centraliza os itens verticalmente */
+        margin: 0 auto; /* Centraliza o grid dentro do contêiner pai */
+        text-align: center; /* Centraliza o texto dentro dos itens */
+    }
+
+    .card-blogs {
+ /* Tamanho fixo dos cards */
+        height: 500px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .cards-wrapper {
+        display: grid;
+        flex-wrap: wrap;
+        gap: 0px; /* Espaçamento entre os cards */
+    }
+
+    .alter h5{
+        font-size: 17px;
+    }
+
+    .alter p{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+
+    .ajust{
+        margin-left: 30%;
+    }
+
+    .card-img-overlay h5{
+        font-size: 20px;
+    }
+
+    .card-img-overlay p{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+   .alte h5{
+    margin-top: -110px;
+    margin-left: 100px;
+    font-size: 15px;
+   }
+
+   .card-init{
+    margin-top: 30px;
+    height: 110px;
+   }
+
+   .card-init img{
+    width: 110px;
+   }
+
+   .nav-links {
+    position: relative; /* Adiciona um contexto de empilhamento */
+    z-index: 3;
+    background-color: white;
+    border-radius: 10px;
+}
+}
+
+@media only screen and (max-width:379px){
+    .header-init{
+        display: grid;
+        margin: 0;
+    }
+    .conteudi {
+        width: 90%;
+        margin-left: 0%;
+        height: 330px;
+        position: relative;  
+        overflow: hidden; 
+        background-image: url(../images-blog/Design\ sem\ nome\ \(3\).jpg);
+        background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        background-position: center; /* Centraliza a imagem no contêiner */
+        background-color: rgba(0, 0, 0, 0.5); /* Adiciona um filtro escuro com 50% de opacidade */
+        background-blend-mode: overlay; /* Combina a cor de fundo com a imagem */
+        transition: background-size 4s ease; /* Suaviza a transição do tamanho da imagem de fundo */
+    }
+
+    .card-init{
+        margin-top: 30px;
+        height: 110px;
+        margin-left: -4%;
+       }
+}
