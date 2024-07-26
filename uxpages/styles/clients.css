@@ -168,7 +168,7 @@ span.like-count{
         background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
         display: grid;
         /* justify-content: space-around; */
-        height: 1800px;
+        height: 1900px;
     }
 
     .clients-speak p{

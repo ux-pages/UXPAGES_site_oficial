@@ -14,7 +14,7 @@
     height: 330px;
     position: relative;  
     overflow: hidden; 
-    background-image: url(../images-blog/Design\ sem\ nome\ \(3\).jpg);
+    background-image: url(../../../pictures/images/sitesimages/Design\ sem\ nome\ \(35\).jpg);
     background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-position: center; /* Centraliza a imagem no contêiner */
@@ -55,7 +55,7 @@
 
 .tag-seo{
     width: 150px;
-    background-color: yellow;
+    background-color: brown;
     font-size: 11px;
     border-radius: 10px;
     text-align: center;
@@ -216,6 +216,18 @@
 
 .dropdown{
     margin-left: 0px;
+}
+
+.card-img-overlay h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-img-overlay p{
+ font-size: 20px;
+ margin-top: 50px;
+ text-align: center;
 }
 
 @media only screen and (max-width:500px) and (min-width:380px){
