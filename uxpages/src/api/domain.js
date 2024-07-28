@@ -28,19 +28,17 @@ async function checkDomainAvailability() {
         return;
     }
 
-    const apiUrl = 'https://domain-checker7.p.rapidapi.com/whois';
+    const apiUrl = `https://domaination.p.rapidapi.com/domains/%7Bdomain-name%7D`;
     const options = {
         method: 'GET',
-        url: apiUrl,
-        params: { domain: domainInput },
         headers: {
-            'X-RapidAPI-Key': 'da5242dd7cmsh51cf85cdd7c50a9p15ec76jsnd2f90295f56a',
-            'X-RapidAPI-Host': 'domain-checker7.p.rapidapi.com'
+            'x-rapidapi-key': 'da5242dd7cmsh51cf85cdd7c50a9p15ec76jsnd2f90295f56a',
+            'x-rapidapi-host': 'domaination.p.rapidapi.com'
         }
     };
 
     try {
-        const response = await axios.request(options);
+        const response = await axios.get(apiUrl, options);
 
         if (response.data.available) {
             availabilityResult.classList.remove('hidden');
@@ -62,7 +60,6 @@ async function checkDomainAvailability() {
                 </div>`;
         } else {
             availabilityResult.classList.add('hidden');
-            availabilityResult.innerHTML = '';
             alert(`O domínio ${domainInput} não está disponível.`);
         }
     } catch (error) {

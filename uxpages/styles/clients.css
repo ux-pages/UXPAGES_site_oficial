@@ -115,6 +115,7 @@ span.like-count{
     width: 150px;
     margin-left: 40px;
     margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   ul li{
@@ -168,7 +169,7 @@ span.like-count{
         background-image: linear-gradient( to bottom, rgb(1, 56, 75), rgb(0, 97, 133), rgb(1, 41, 55));
         display: grid;
         /* justify-content: space-around; */
-        height: 1900px;
+        height: 2400px;
     }
 
     .clients-speak p{
@@ -185,6 +186,7 @@ span.like-count{
       /* margin-top: 200px; */
       margin-left: 0px;
       align-items: center;
+      
     }
 
     .clients-speak{
@@ -196,6 +198,7 @@ span.like-count{
     .client-logos img{
       width: 60%;
       margin-bottom: 50px;
+      margin-top: 10px;
     }
 
     .client-logos{

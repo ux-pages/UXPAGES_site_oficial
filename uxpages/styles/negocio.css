@@ -1,6 +1,6 @@
 #robbu-whatsapp-button {
     position: fixed!important; /* ou absolute, dependendo de onde você quer que ele fique */
-    z-index: 150!important;
+    z-index: 4000!important;
     bottom: 20px; /* Ajuste a posição conforme necessário */
     right: 20px; /* Ajuste a posição conforme necessário */
 }

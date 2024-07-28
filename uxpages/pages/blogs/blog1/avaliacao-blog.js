@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submitButton.addEventListener('click', function () {
         const selectedRating = document.querySelector('.rating input:checked');
         if (selectedRating) {
-            alert('Avaliação enviada: ' + selectedRating.value + ' estrelas');
+            alert('Obrigado por nos avaliar');
         } else {
             alert('Por favor, selecione uma avaliação.');
         }

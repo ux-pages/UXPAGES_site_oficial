@@ -1,0 +1,11 @@
+# Bloqueia todos os bots de acessar o diretório /private/ e /admin/
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+
+# Permite todos os bots de acessar todo o restante do site
+User-agent: *
+Allow: /
+
+# Direciona os bots para o sitemap do site
+Sitemap: https://66a31b2c1bacb911f3816cb5--ux-pages.netlify.app/sitemap.xml

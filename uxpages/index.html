@@ -21,6 +21,10 @@
     <meta property="og:url" content="URL_do_seu_site">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
+
+    <!-- Meta tag para o Google Analytics-->
+    <meta name="google-site-verification" content="G-6HPRRFJPQM">
+
     
     <link rel="icon" href="pictures/2-removebg-preview.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -56,10 +60,10 @@
                         <img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo da [Nome da Empresa]" width="150px">
                     </a>
                     <div class="d-flex icon-nav">
-                        <a href="https://www.instagram.com/ux_pages/" aria-label="Link para o Instagram da [Nome da Empresa]"><img src="pictures/navbar-icon/instagram.png" alt="Instagram da [Nome da Empresa]" width="25px"></a>
-                        <a href="https://facebook.com/suaempresa" aria-label="Link para o Facebook da [Nome da Empresa]"><img src="pictures/navbar-icon/facebook.png" alt="Facebook da [Nome da Empresa]" width="25px"></a>
-                        <a href="https://linkedin.com/company/suaempresa" aria-label="Link para o LinkedIn da [Nome da Empresa]"><img src="pictures/navbar-icon/linkedin.png" alt="LinkedIn da [Nome da Empresa]" width="25px"></a>
-                        <a href="https://youtube.com/c/suaempresa" aria-label="Link para o YouTube da [Nome da Empresa]"><img src="pictures/navbar-icon/youtube.png" alt="YouTube da [Nome da Empresa]" width="25px"></a>
+                        <a href="https://www.instagram.com/ux_pages/" target="_blank" aria-label="Link para o Instagram da [Nome da Empresa]"><img src="pictures/navbar-icon/instagram.png" alt="Instagram da [Nome da Empresa]" width="25px"></a>
+                        <a href="https://facebook.com/suaempresa" target="_blank" aria-label="Link para o Facebook da [Nome da Empresa]"><img src="pictures/navbar-icon/facebook.png" alt="Facebook da [Nome da Empresa]" width="25px"></a>
+                        <a href="https://www.linkedin.com/in/ux-pages/" target="_blank" aria-label="Link para o LinkedIn da [Nome da Empresa]"><img src="pictures/navbar-icon/linkedin.png" alt="LinkedIn da [Nome da Empresa]" width="25px"></a>
+                        <a href="https://www.youtube.com/@UxPages" target="_blank" aria-label="Link para o YouTube da [Nome da Empresa]"><img src="pictures/navbar-icon/youtube.png" alt="YouTube da [Nome da Empresa]" width="25px"></a>
                     </div>
                 </div>
             </nav>
@@ -70,13 +74,13 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="#" aria-label="Sites Profissionais Rápidos - [Nome da Empresa]">Sites Profissionais Rápidos</a>
+                            <a class="nav-link" href="#" aria-label="Sites Profissionais Rápidos - [Nome da Empresa]">Sites Profissionais</a>
                             <a class="nav-link" href="#" aria-label="Hospedagem Web - [Nome da Empresa]">Hospedagem</a>
-                            <a class="nav-link" href="#" aria-label="E-mail Profissional - [Nome da Empresa]">E-mail Profissional</a>
-                            <a class="nav-link" href="#" aria-label="Soluções Google - [Nome da Empresa]">Google</a>
-                            <a class="nav-link" href="#" aria-label="Registro de Domínios - [Nome da Empresa]">Domínios</a>
+                            <!-- <a class="nav-link" href="#" aria-label="E-mail Profissional - [Nome da Empresa]">E-mail Profissional</a> -->
+                            <!-- <a class="nav-link" href="#" aria-label="Soluções Google - [Nome da Empresa]">Google</a> -->
+                            <a class="nav-link" href="#domain-busca" aria-label="Registro de Domínios - [Nome da Empresa]">Domínios</a>
                             <a href="pages/blogs/blog1/indexblog.html" class="nav-link" aria-label="Blog - [Nome da Empresa]">Blog</a>
-                            <a href="#" class="nav-link" aria-label="Perguntas Frequentes - FAQ - [Nome da Empresa]">FAQ</a>
+                            <a href="#duvidas-faq" class="nav-link" aria-label="Perguntas Frequentes - FAQ - [Nome da Empresa]">FAQ</a>
                             <a href="#" class="nav-link" aria-label="Sobre a UX - [Nome da Empresa]">Sobre a UX</a>
                         </div>
                     </div>
@@ -104,12 +108,12 @@
                                         </a>
                                     </li>
                                     <li class="nav-link-item">
-                                        <a class="nav-link" href="#" aria-label="Hospedagem Web - [Nome da Empresa]">
+                                        <a class="nav-link" href="#domain-busca" aria-label="Hospedagem Web - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x1F527;</span>
                                             Hospedagem
                                         </a>
                                     </li>
-                                    <li class="nav-link-item">
+                                    <!-- <li class="nav-link-item">
                                         <a class="nav-link" href="#" aria-label="E-mail Profissional - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x2709;</span>
                                             E-mail Profissional
@@ -120,7 +124,7 @@
                                             <span class="icon" role="img" aria-hidden="true">&#x1F4C8;</span>
                                             Google
                                         </a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-link-item">
                                         <a class="nav-link" href="#domain-name" aria-label="Registro de Domínios - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x1F524;</span>
@@ -128,13 +132,13 @@
                                         </a>
                                     </li>
                                     <li class="nav-link-item">
-                                        <a class="nav-link" href="pages/blogs/blog1/blog1.html" aria-label="Blog - [Nome da Empresa]">
+                                        <a class="nav-link" href="pages/blogs/blog1/indexblog.html" aria-label="Blog - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x1F4D1;</span>
                                             Blog
                                         </a>
                                     </li>
                                     <li class="nav-link-item">
-                                        <a class="nav-link" href="#faq" aria-label="Perguntas Frequentes - FAQ - [Nome da Empresa]">
+                                        <a class="nav-link" href="#duvidas-faq" aria-label="Perguntas Frequentes - FAQ - [Nome da Empresa]">
                                             <span class="icon" role="img" aria-hidden="true">&#x1F4A1;</span>
                                             FAQ
                                         </a>
@@ -170,7 +174,7 @@
     </header>
     
 <!-- BUSCA POR DOMINIO -->
-<section class="domains">
+<section class="domains" id="domain-busca">
   <div class="container">
       <h2>Consulte o domínio perfeito para o seu site</h2>
       <div class="domain-api">
@@ -191,7 +195,7 @@
             <div class="card-body">
                 <h5 class="card-title">Sites Rápidos e Profissionais</h5>
                 <p class="card-text">Criação de sites de alta performance, projetados para entregar uma experiência de usuário ágil e eficiente.</p>
-                <a href="#" class="btn btn-primary" aria-label="Ver planos de Sites Rápidos e Profissionais">VER PLANOS</a>
+                <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20solicitar%20um%20or%C3%A7amento%20para%20meu%20site" class="btn btn-primary" target="_blank" aria-label="Ver planos de Sites Rápidos e Profissionais">ORÇAR SITE</a>
             </div>
         </div>
         <div class="card card-neg">
@@ -199,7 +203,7 @@
             <div class="card-body">
                 <h5 class="card-title">E-mails Profissionais</h5>
                 <p class="card-text">Serviço de e-mail com domínio próprio, ideal para aumentar a credibilidade e a comunicação da sua empresa.</p>
-                <a href="#" class="btn btn-primary" aria-label="Ver planos de E-mails Profissionais">VER PLANOS</a>
+                <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20um%20plano%20para%20e-mails%20profissionais" class="btn btn-primary" aria-label="Ver planos de E-mails Profissionais">VER PLANOS</a>
             </div>
         </div>
         <div class="card card-neg card-color-diferent">
@@ -207,7 +211,7 @@
             <div class="card-body">
                 <h5 class="card-title">Hospedagem</h5>
                 <p class="card-text">Soluções robustas de hospedagem para garantir que seu site esteja sempre disponível e seguro.</p>
-                <a href="#" class="btn btn-primary" aria-label="Ver planos de Hospedagem">VER PLANOS</a>
+                <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20hospedar%20meu%20site" class="btn btn-primary" aria-label="Ver planos de Hospedagem">HOSPEDAR SITE</a>
             </div>
         </div>
         <div class="card card-neg">
@@ -215,7 +219,7 @@
             <div class="card-body">
                 <h5 class="card-title">Google Meu Negócio</h5>
                 <p class="card-text">Configuração e otimização do Google Meu Negócio para melhorar sua presença online e atrair mais clientes locais.</p>
-                <a href="#" class="btn btn-primary" aria-label="Ver planos de Google Meu Negócio">VER PLANOS</a>
+                <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20configurar%20meu%20google" class="btn btn-primary" aria-label="Ver planos de Google Meu Negócio">CONFIGURAR</a>
             </div>
         </div>
     </div>
@@ -229,7 +233,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Sites Rápidos e Profissionais</h5>
                         <p class="card-text">Criação de sites de alta performance, projetados para entregar uma experiência de usuário ágil e eficiente.</p>
-                        <a href="#" class="btn btn-primary" aria-label="Ver planos de Sites Rápidos e Profissionais">VER PLANOS</a>
+                        <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20solicitar%20um%20or%C3%A7amento%20para%20meu%20site" class="btn btn-primary" aria-label="Ver planos de Sites Rápidos e Profissionais">ORÇAR SITE</a>
                     </div>
                 </div>
             </div>
@@ -239,7 +243,7 @@
                     <div class="card-body">
                         <h5 class="card-title">E-mails Profissionais</h5>
                         <p class="card-text">Serviço de e-mail com domínio próprio, ideal para aumentar a credibilidade e a comunicação da sua empresa.</p>
-                        <a href="#" class="btn btn-primary" aria-label="Ver planos de E-mails Profissionais">VER PLANOS</a>
+                        <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20um%20plano%20para%20e-mails%20profissionais" class="btn btn-primary" aria-label="Ver planos de E-mails Profissionais">VER PLANOS</a>
                     </div>
                 </div>
             </div>
@@ -249,7 +253,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Hospedagem</h5>
                         <p class="card-text">Soluções robustas de hospedagem para garantir que seu site esteja sempre disponível e seguro.</p>
-                        <a href="#" class="btn btn-primary" aria-label="Ver planos de Hospedagem">VER PLANOS</a>
+                        <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20hospedar%20meu%20site" class="btn btn-primary" aria-label="Ver planos de Hospedagem">HOSPEDAR SITE</a>
                     </div>
                 </div>
             </div>
@@ -259,7 +263,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Google Meu Negócio</h5>
                         <p class="card-text">Configuração e otimização do Google Meu Negócio para melhorar sua presença online e atrair mais clientes locais.</p>
-                        <a href="#" class="btn btn-primary" aria-label="Ver planos de Google Meu Negócio">VER PLANOS</a>
+                        <a href="https://api.whatsapp.com/send?phone=5551992794875&text=Quero%20configurar%20meu%20google" class="btn btn-primary" aria-label="Ver planos de Google Meu Negócio">CONFIGURAR</a>
                     </div>
                 </div>
             </div>
@@ -287,7 +291,7 @@
                 <img src="pictures/sites/FireShot Capture 001 - ADV 3 - 666120c90d96f535cb7b016d--uxpagesadv3.netlify.app.png" class="card-img-top" alt="Modelo de Site REDPRIME - Ideal para empresas modernas com design inovador e responsivo.">
             </figure>
             <div class="card-body alinhamento">
-                <h3 class="name-site">REDPRIME</h3>
+                <!-- <h3 class="name-site">REDPRIME</h3> -->
                 <a href="https://666120c90d96f535cb7b016d--uxpagesadv3.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo REDPRIME">VISITAR SITE</a>
             </div>
         </article>
@@ -297,7 +301,7 @@
                 <img src="pictures/sites/adv1.png" class="card-img-top" alt="Modelo de Site ONYXGOLD - Elegância e funcionalidade para negócios de alto padrão.">
             </figure>
             <div class="card-body alinhamento">
-                <h3 class="name-site">ONYXGOLD</h3>
+                <!-- <h3 class="name-site">ONYXGOLD</h3> -->
                 <a href="https://uxpages-adv1.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo ONYXGOLD">VISITAR SITE</a>
             </div>
         </article>
@@ -307,7 +311,7 @@
                 <img src="pictures/sites/adv3.png" class="card-img-top" alt="Modelo de Site SIMPLESPOT - Simplicidade e eficácia para empresas que desejam um design limpo e funcional.">
             </figure>
             <div class="card-body alinhamento">
-                <h3 class="name-site">SIMPLESPOT</h3>
+                <!-- <h3 class="name-site">SIMPLESPOT</h3> -->
                 <a href="https://uxpages-adv2.netlify.app/" class="btn btn-primary" aria-label="Visitar o site modelo SIMPLESPOT">VISITAR SITE</a>
             </div>
         </article>
@@ -325,17 +329,17 @@
         <div class="images-logo">
             <ul class="client-logos">
                 <li><img src="pictures/clients/logo-fgmt.png" alt="Logo do cliente 1"></li>
-                <li><img src="pictures/clients/logo.jpg" alt="Logo do cliente 2"></li>
-                <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 3"></li>
+                <li><img src="pictures/clients/forus.png" alt="Logo do cliente 2"></li>
+                <li><img src="pictures/clients/beauty.png" alt="Logo do cliente 3"></li>
             </ul>
-            <ul class="client-logos-two">
+            <!-- <ul class="client-logos-two">
                 <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 4"></li>
                 <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 5"></li>
-            </ul>
+            </ul> -->
             <ul class="client-logos">
-                <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 6"></li>
-                <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 7"></li>
-                <li><img src="pictures/images/Apresentação_do_logo.pdf-removebg-preview.png" alt="Logo do cliente 8"></li>
+                <li><img src="pictures/clients/larodsanjos.png" alt="Logo do cliente 6"></li>
+                <li><img src="pictures/clients/toniello.png" alt="Logo do cliente 7"></li>
+                <li><img src="pictures/clients/veit.png" alt="Logo do cliente 8"></li>
             </ul>
         </div>
     </div>
@@ -343,7 +347,7 @@
     <div class="clients">
         <article class="card card-clients" id="client-1">
             <div class="card-top-image">
-                <img class="image-client" src="pictures/images/sitesimages/Design sem nome (34).jpg" alt="Foto do cliente Alaiane Rocha">
+                <img class="image-client" src="pictures/clients/4e340d81-64e3-4f6d-ad8a-d4346267cc90.jfif" alt="Foto do cliente Alaiane Rocha">
                 <div class="card-top-text">
                     <div class="flex-text-image">
                         <h3>Alaiane Rocha</h3>
@@ -407,62 +411,157 @@
 
     <!-- Cards de Recursos -->
     <div class="fluxogramas">
-        <div class="card-fluxograma" data-animation="animate__fadeInLeft">
+        <div class="card-fluxograma" data-animation="animate__fadeInLeft" data-modal="modal-google-analytics">
             <img src="pictures/busca/google-analytics.png" alt="Ferramenta de análise Google Analytics" width="80px">
             <p>Google Analytics</p>
         </div>
-        <div class="card-fluxograma" data-animation="animate__fadeInDown">
+        <div class="card-fluxograma" data-animation="animate__fadeInDown" data-modal="modal-seo">
             <img src="pictures/busca/google (2).png" alt="Otimização de sites para mecanismos de busca (SEO)" width="80px">
             <p>SEO</p>
         </div>
-        <div class="card-fluxograma" data-animation="animate__fadeInRight">
+        <div class="card-fluxograma" data-animation="animate__fadeInRight" data-modal="modal-ssl">
             <img src="pictures/busca/certificado-ssl.png" alt="Certificado de segurança SSL para proteger seu site" width="80px">
             <p>Certificado de Segurança SSL</p>
         </div>
     </div>
     <div class="fluxogramas">
-        <div class="card-fluxograma" data-animation="animate__fadeInLeft">
+        <div class="card-fluxograma" data-animation="animate__fadeInLeft" data-modal="modal-pages">
             <img src="pictures/busca/index.png" alt="Páginas indexadas para maior visibilidade nos mecanismos de busca" width="80px">
             <p>Páginas Indexadas</p>
         </div>
-        <div class="card-fluxograma" data-animation="animate__fadeInUp">
+        <div class="card-fluxograma" data-animation="animate__fadeInUp" data-modal="modal-hosting">
             <img src="pictures/busca/rede-de-pastas.png" alt="Serviço de hospedagem segura para sites" width="80px">
             <p>Hospedagem Segura</p>
         </div>
-        <div class="card-fluxograma" data-animation="animate__fadeInRight">
-            <img src="pictures/busca/computador.png" alt="Editor de sites para fácil criação e manutenção" width="80px">
-            <p>Editor de site</p>
-        </div>
-    </div>
-
-    <!-- Cards de Recursos para Mobile -->
-    <div class="fluxo-mobile">
-        <div class="card-fluxograma">
-            <img src="pictures/busca/google-analytics.png" alt="Ferramenta de análise Google Analytics" width="80px">
-            <p>Google Analytics</p>
-        </div>
-        <div class="card-fluxograma">
-            <img src="pictures/busca/google (2).png" alt="Otimização de sites para mecanismos de busca (SEO)" width="80px">
-            <p>SEO</p>
-        </div>
-        <div class="card-fluxograma">
-            <img src="pictures/busca/certificado-ssl.png" alt="Certificado de segurança SSL para proteger seu site" width="80px">
-            <p>Certificado de Segurança SSL</p>
-        </div>
-        <div class="card-fluxograma">
-            <img src="pictures/busca/index.png" alt="Páginas indexadas para maior visibilidade nos mecanismos de busca" width="80px">
-            <p>Páginas Indexadas</p>
-        </div>
-        <div class="card-fluxograma">
-            <img src="pictures/busca/rede-de-pastas.png" alt="Serviço de hospedagem segura para sites" width="80px">
-            <p>Hospedagem Segura</p>
-        </div>
-        <div class="card-fluxograma">
-            <img src="pictures/busca/computador.png" alt="Editor de sites para fácil criação e manutenção" width="80px">
-            <p>Editor de site</p>
+        <div class="card-fluxograma" data-animation="animate__fadeInRight" data-modal="modal-editor">
+            <img src="pictures/icons/consultant.png" alt="Editor de sites para fácil criação e manutenção" width="80px">
+            <p>Consultoria Digital</p>
         </div>
     </div>
 </section>
+
+ <!-- Cards de Recursos para Mobile -->
+ <div class="fluxo-mobile">
+    <div class="card-fluxograma1" id="google-analytics">
+        <img src="pictures/busca/google-analytics.png" alt="Ferramenta de análise Google Analytics" width="80px">
+        <p>Google Analytics</p>
+    </div>
+    <div class="card-fluxograma1" id="seo">
+        <img src="pictures/busca/google (2).png" alt="Otimização de sites para mecanismos de busca (SEO)" width="80px">
+        <p>SEO</p>
+    </div>
+    <div class="card-fluxograma1" id="certificado-ssl">
+        <img src="pictures/busca/certificado-ssl.png" alt="Certificado de segurança SSL para proteger seu site" width="80px">
+        <p>Certificado de Segurança SSL</p>
+    </div>
+    <div class="card-fluxograma1" id="paginas-indexadas">
+        <img src="pictures/busca/index.png" alt="Páginas indexadas para maior visibilidade nos mecanismos de busca" width="80px">
+        <p>Páginas Indexadas</p>
+    </div>
+    <div class="card-fluxograma1" id="hospedagem-segura">
+        <img src="pictures/busca/rede-de-pastas.png" alt="Serviço de hospedagem segura para sites" width="80px">
+        <p>Hospedagem Segura</p>
+    </div>
+    <div class="card-fluxograma1" id="editor-site">
+        <img src="pictures/icons/consultant.png" alt="Editor de sites para fácil criação e manutenção" width="80px">
+        <p>Consultoria Digital</p>
+    </div>
+</div>
+
+<!-- Modais -->
+<div id="modal-google-analytics" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Google Analytics</h2>
+        <p>O Google Analytics é uma ferramenta gratuita oferecida pelo Google que ajuda donos de sites a entender como as pessoas usam seus sites. É como um "detetive digital" que coleta e analisa informações sobre os visitantes do site.</p>
+    </div>
+</div>
+
+<div id="modal-seo" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>SEO</h2>
+        <p>SEO, ou Otimização para Motores de Busca, é o conjunto de técnicas usadas para melhorar a posição de um site nos resultados de pesquisa do Google e outros motores de busca. Isso ajuda mais pessoas a encontrar e visitar o site.</p>
+    </div>
+</div>
+
+<div id="modal-certificado-ssl" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Certificado de Segurança SSL</h2>
+        <p>O Certificado de Segurança SSL é como um "cadeado" que protege a comunicação entre o navegador de uma pessoa e um site. Ele garante que os dados trocados, como senhas e informações pessoais, fiquem seguros e não sejam interceptados por terceiros.</p>
+    </div>
+</div>
+
+<div id="modal-paginas-indexadas" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Páginas Indexadas</h2>
+        <p>Páginas indexadas são as páginas de um site que foram descobertas e registradas pelos motores de busca, como o Google. Isso significa que essas páginas podem aparecer nos resultados de busca quando alguém procura por termos relacionados ao conteúdo do site.</p>
+    </div>
+</div>
+
+<div id="modal-hospedagem-segura" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Hospedagem Segura</h2>
+        <p>Hospedagem segura é um serviço que guarda e exibe seu site na internet, garantindo que ele esteja protegido contra ataques e acessos não autorizados. Isso ajuda a manter as informações do seu site e dos seus visitantes seguras.</p>
+    </div>
+</div>
+
+<div id="modal-editor-site" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Consultoria Digital</h2>
+        <p>A consultoria digital é um serviço especializado que ajuda empresas a otimizar sua presença online. Ela oferece orientação estratégica em áreas como marketing digital, SEO, redes sociais, análise de dados e design de sites. A importância de uma consultoria digital para o seu site reside no fato de que, com a orientação de especialistas, você pode alcançar melhores resultados, atrair mais visitantes qualificados, melhorar a experiência do usuário e, consequentemente, aumentar suas conversões e vendas. Em um mundo cada vez mais digital, contar com uma consultoria pode ser o diferencial para o sucesso do seu negócio na internet.</p>
+    </div>
+</div>
+</section>
+
+<!-- Modais -->
+<div id="modal-google-analytics" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Google Analytics</h2>
+        <p>O Google Analytics é uma ferramenta gratuita oferecida pelo Google que ajuda donos de sites a entender como as pessoas usam seus sites. É como um "detetive digital" que coleta e analisa informações sobre os visitantes do site.</p>
+    </div>
+</div>
+
+<div id="modal-seo" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>SEO</h2>
+        <p>SEO, ou Otimização para Motores de Busca, é o conjunto de técnicas usadas para melhorar a posição de um site nos resultados de pesquisa do Google e outros motores de busca. Isso ajuda mais pessoas a encontrar e visitar o site.</p>
+    </div>
+</div>
+<div id="modal-ssl" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Certificado de Segurança SSL</h2>
+        <p>O Certificado de Segurança SSL é como um "cadeado" que protege a comunicação entre o navegador de uma pessoa e um site. Ele garante que os dados trocados, como senhas e informações pessoais, fiquem seguros e não sejam interceptados por terceiros.</p>
+    </div>
+</div>
+<div id="modal-pages" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Páginas Indexadas</h2>
+        <p>Páginas indexadas são as páginas de um site que foram descobertas e registradas pelos motores de busca, como o Google. Isso significa que essas páginas podem aparecer nos resultados de busca quando alguém procura por termos relacionados ao conteúdo do site.</p>
+    </div>
+</div>
+<div id="modal-hosting" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Hospedagem Segura</h2>
+        <p>Hospedagem segura é um serviço que guarda e exibe seu site na internet, garantindo que ele esteja protegido contra ataques e acessos não autorizados. Isso ajuda a manter as informações do seu site e dos seus visitantes seguras.</p>
+    </div>
+</div>
+<div id="modal-editor" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Consultoria Digital</h2>
+        <p>A consultoria digital é um serviço especializado que ajuda empresas a otimizar sua presença online. Ela oferece orientação estratégica em áreas como marketing digital, SEO, redes sociais, análise de dados e design de sites. A importância de uma consultoria digital para o seu site reside no fato de que, com a orientação de especialistas, você pode alcançar melhores resultados, atrair mais visitantes qualificados, melhorar a experiência do usuário e, consequentemente, aumentar suas conversões e vendas. Em um mundo cada vez mais digital, contar com uma consultoria pode ser o diferencial para o sucesso do seu negócio na internet.</p>
+    </div>
+</div>
 
 
 
@@ -472,9 +571,10 @@
 
 <div class="geral-blog-desktop">
     <div class="blog-text" id="chama-blog">
-        <p>Blog da UX</p>
+        <p>Newsleader</p>
     </div>
     <div class="blogs-card">
+        <a href="pages/blogs/blog1/blog1.html">
         <div class="card card-blogs">
             <img src="pictures/images/blog images/Design sem nome (37) (2).jpg" class="card-img-top" alt="Imagem de um site com o texto '10 Motivos para Ter um Site'">
             <div class="card-body">
@@ -485,8 +585,9 @@
             <div class="card-footer">
                 <small class="text-muted">Publicado 16/06/2024</small>
             </div>
-        </div>
+        </div></a>
 
+        <a href="">
         <div class="card card-blogs">
             <img src="pictures/images/blog images/Design sem nome (38) (1).jpg" class="card-img-top" alt="Imagem representando empresas brasileiras com o texto 'O Crescimento das Empresas Brasileiras na Internet'">
             <div class="card-body">
@@ -497,8 +598,9 @@
             <div class="card-footer">
                 <small class="text-muted">Publicado 16/06/2024</small>
             </div>
-        </div>
+        </div></a>
 
+        <a href="pages/blogs/blog1/blog2.html">
         <div class="card card-blogs">
             <img src="pictures/images/blog images/Design sem nome (39) (2).jpg" class="card-img-top" alt="Imagem de um site otimizado para SEO com o texto 'SEO: Como Melhorar a Visibilidade do Seu Novo Site'">
             <div class="card-body">
@@ -509,18 +611,19 @@
             <div class="card-footer">
                 <small class="text-muted">Publicado 16/06/2024</small>
             </div>
-        </div>
+        </div></a>
     </div>
     <button class="btn-blog">Ver mais artigos</button>
 </div>
 
 <div class="geral-blog-mobile">
     <div class="blog-text">
-        <p>Blog da UX</p>
+        <p>Newsleader</p>
     </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <a href="pages/blogs/blog1/blog1.html">
                 <div class="card card-blogs">
                     <img src="pictures/images/blog images/Design sem nome (37) (2).jpg" class="card-img-top" alt="Imagem de um site com o texto '10 Motivos para Ter um Site'">
                     <div class="card-body">
@@ -532,8 +635,10 @@
                         <small class="text-muted">Publicado 16/06/2024</small>
                     </div>
                 </div>
+            </a>
             </div>
             <div class="carousel-item">
+                <a href="pages/blogs/blog1/blog3.html">
                 <div class="card card-blogs">
                     <img src="pictures/images/blog images/Design sem nome (38) (1).jpg" class="card-img-top" alt="Imagem representando empresas brasileiras com o texto 'O Crescimento das Empresas Brasileiras na Internet'">
                     <div class="card-body">
@@ -544,9 +649,10 @@
                     <div class="card-footer">
                         <small class="text-muted">Publicado 16/06/2024</small>
                     </div>
-                </div>
+                </div></a>
             </div>
             <div class="carousel-item">
+                <a href="pages/blogs/blog1/blog2.html">
                 <div class="card card-blogs">
                     <img src="pictures/images/blog images/Design sem nome (39) (2).jpg" class="card-img-top" alt="Imagem de um site otimizado para SEO com o texto 'SEO: Como Melhorar a Visibilidade do Seu Novo Site'">
                     <div class="card-body">
@@ -557,7 +663,7 @@
                     <div class="card-footer">
                         <small class="text-muted">Publicado 16/06/2024</small>
                     </div>
-                </div>
+                </div></a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -569,12 +675,12 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <a href="#"><button class="btn-blog">Ver mais artigos</button></a>
+    <a href="pages/blogs/blog1/indexblog.html"><button class="btn-blog">Ver mais artigos</button></a>
 </div>
 
 
 <!-- Faq -------------------------------------------------------------------------------------------------------------------------------->
-<div class="duvidas">
+<div class="duvidas" id="duvidas-faq">
     Ficou na dúvida?
 </div>
 
@@ -585,12 +691,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Posso fazer alterações no meu site após ele estar pronto?
+                    Vocês oferecem manutenção contínua após o lançamento do site?
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Sim, você pode fazer alterações no seu site.</strong> Após o lançamento, você terá a flexibilidade de editar conteúdo, adicionar novas páginas ou fazer ajustes conforme necessário. Nossa plataforma oferece ferramentas fáceis de usar que permitem que você mantenha seu site atualizado sem complicações.
+                   <strong>Sim, oferecemos planos de hospedagem e manutenção contínua.</strong>  Com esses planos, você terá uma pessoa dedicada que cuidará de todo o gerenciamento e manutenção do seu site.
                 </div>
             </div>
         </div>
@@ -598,12 +704,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    O que é SEO e por que é importante para o meu site?
+                    Quanto tempo leva para construir um site?
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>SEO significa Otimização para Motores de Busca.</strong> É um conjunto de práticas que visa melhorar a visibilidade do seu site nos resultados de pesquisa do Google e outros motores de busca. Um bom SEO pode aumentar o tráfego orgânico para o seu site, ajudando a atrair mais visitantes e potenciais clientes.
+                    O tempo de construção de um site pode variar bastante dependendo das suas necessidades específicas. Em média, levamos cerca de <strong>14 dias para concluir um site completo, incluindo SEO e design responsivo.</strong>
                 </div>
             </div>
         </div>
@@ -611,12 +717,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    A hospedagem inclui suporte técnico?
+                    Como funciona o suporte ao cliente da UX Pages?
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Sim, nossa hospedagem inclui suporte técnico.</strong> Nossa equipe está disponível para ajudá-lo com qualquer problema técnico que possa surgir, garantindo que seu site esteja sempre online e funcionando perfeitamente. Oferecemos suporte 24/7 para resolver quaisquer questões que você possa ter.
+                    Nosso suporte ao cliente funciona todos os dias, das 8h às 22h. Temos uma equipe especializada pronta para ajudá-lo com todas as suas necessidades.
                 </div>
             </div>
         </div>
@@ -653,10 +759,10 @@
             <a href="#" target="_blank">
                 <img src="pictures/navbar-icon/facebook.png" alt="Facebook" width="40px">
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/ux-pages/" target="_blank">
                 <img src="pictures/navbar-icon/linkedin.png" alt="LinkedIn" width="40px">
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.youtube.com/@UxPages" target="_blank">
                 <img src="pictures/navbar-icon/youtube.png" alt="YouTube" width="40px">
             </a>
         </div>
@@ -665,25 +771,25 @@
     <div class="navs-footer">
         <div class="footer-nav-one">
             <h6>Sites</h6>
-            <a href="https://www.institucional.com" target="_blank">Site Institucional</a>
-            <a href="https://www.landingpage.com" target="_blank">Site LandingPage</a>
-            <a href="https://www.blog.com" target="_blank">Site Blog</a>
-            <a href="https://www.ecommerce.com" target="_blank">E-Commerce</a>
+            <a href="" target="_blank">Site Institucional</a>
+            <a href="" target="_blank">Site LandingPage</a>
+            <a href="" target="_blank">Site Blog</a>
+            <a href="" target="_blank">E-Commerce</a>
         </div>
     
         <div class="footer-nav-one">
             <h6>Recursos Úteis</h6>
-            <a href="https://www.seusite.com/guia-de-seo" target="_blank">Guia de SEO</a>
-            <a href="https://www.seusite.com/ferramentas" target="_blank">Ferramentas Gratuitas</a>
-            <a href="https://www.seusite.com/tutoriais" target="_blank">Tutoriais e Dicas</a>
-            <a href="https://www.seusite.com/case-de-sucesso" target="_blank">Cases de Sucesso</a>
+            <a href="guia-de-seo" target="_blank">Guia de SEO</a>
+            <a href="ferramentas" target="_blank">Ferramentas Gratuitas</a>
+            <a href="tutoriais" target="_blank">Tutoriais e Dicas</a>
+            <a href="case-de-sucesso" target="_blank">Cases de Sucesso</a>
         </div>
     
         <div class="footer-nav-one">
             <h6>Artigos do Blog</h6>
-            <a href="https://www.seusite.com/artigos/10-motivos-para-ter-um-site" target="_blank">10 Motivos para Ter um Site</a>
-            <a href="https://www.seusite.com/artigos/crescimento-empresas-brasileiras-na-internet" target="_blank">O Crescimento das Empresas Brasileiras na Internet: <br> Revolução Digital no Brasil</a>
-            <a href="https://www.seusite.com/artigos/seo-como-melhorar-visibilidade-novo-site" target="_blank">SEO: Como Melhorar a Visibilidade do Seu Novo Site</a>
+            <a href="artigos/10-motivos-para-ter-um-site" target="_blank">10 Motivos para Ter um Site</a>
+            <a href="artigos/crescimento-empresas-brasileiras-na-internet" target="_blank">O Crescimento das Empresas Brasileiras na Internet: <br> Revolução Digital no Brasil</a>
+            <a href="artigos/seo-como-melhorar-visibilidade-novo-site" target="_blank">SEO: Como Melhorar a Visibilidade do Seu Novo Site</a>
         </div>
     </div>
     
@@ -700,7 +806,7 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="src/api/domain.js"></script>
+
 <script src="src/componets/nichos.js"></script>
 <script src="src/componets/like.js"></script>
 <script src="src/componets/fadescrol.js"></script>
@@ -718,6 +824,19 @@
 <script src="src/componets/fade.js"></script>
   
   </script>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6HPRRFJPQM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6HPRRFJPQM');
+</script>
+<script src="src/componets/modais.js"></script>
+<script src="src/componets/modal-mobile.js"></script>
+<script src="src/api/domain.js"></script>
   
   
 </html>
